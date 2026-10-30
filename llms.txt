@@ -1,0 +1,76 @@
+# Where the Patch Ends — パッチの向こう側 ── AI時代のエンタープライズ・セキュリティを、世界の提言から読む
+
+> An updatable book by Satoshi Yamauchi (山内怜史), AI Strategist, that
+> reads enterprise security in the AI era from the world's proposals.
+> Proposals written in 2025–2026 by eight kinds of issuer — governments
+> and public bodies, standards bodies, AI companies, security companies,
+> insurers, academia, individual experts and regulators — are placed in a
+> ledger (data/proposals.csv) and counted only when the author opened the
+> primary source and verified the wording (tiers T1 and T2). The first
+> edition (30 October 2026) holds 263 rows, of which 211 are counted; 39
+> unverified rows remain as T3 and are not used. Parts 1 and 2 assert
+> nothing: attackers move in minutes while defenders move in days; the
+> issuers themselves wrote that their proposals are "not new"; the
+> stop-gap for the period when a fix is not in time was written into US
+> and Japanese rules without measured evidence; and the 211 proposals are
+> counted for where they agree, conflict and fall silent. Part 3 is where
+> the author's claims begin: with no proposal's effect measured, the
+> things that still mean something when the attack succeeds and that a
+> company can decide without anyone's cooperation are three — what to
+> hold, when to notice and how to tell — and these three are the thinnest
+> part of the world's proposals. Part 4 follows those decisions through
+> the decision to stop, the vendor contract, and the approval, insurance
+> and board. The book does not say which measures prevent attacks, does
+> not say AI caused the breaches, does not grade the organisations that
+> wrote the breach notices, and makes no forecast; the conclusion sets out
+> sixteen indicators to be recounted in the next edition. Central claim:
+> "The race to prevent intrusion is being lost to the attackers on speed.
+> The only things a company can decide for itself are three: what to
+> hold, when to notice and how to tell. And these three are the thinnest
+> part of the world's proposals." Companion to The Japan Breach Registry
+> 2026 (the ledger of facts).
+
+## Key facts (first edition, 2026-10-30)
+
+- Ledger: 263 rows; 13 merged into other rows; 250 candidates; 211 counted (T1 81, T2 130); 39 in T3, not counted. Eight issuer types A–H; nine proposal kinds K1–K9; each row maps to the intrusion vectors of the Japanese breach ledger (route column).
+- Speed (Chapter 1): CrowdStrike 2026 Global Threat Report — average 29 minutes from intrusion to lateral movement, fastest 27 seconds; Unit 42 Global Incident Response Report 2026 — fastest quartile reached exfiltration in 72 minutes (285 the year before); Verizon 2026 DBIR — 26% of critical vulnerabilities fully remediated (38% the year before), median 43 days to full resolution (32 the year before); Mandiant M-Trends 2026 — average time-to-exploit estimated at 7 days before patch release. JPCERT/CC (15 Oct 2026) wrote that attackers had been confirmed using AI to scan for known vulnerabilities and attack via APIs.
+- "Not new" (Chapter 2): three primary sources whose issuers wrote that the recommended measures are the same as before AI.
+- Institutionalisation without evidence (Chapter 3): the stop-gap "mitigation may substitute for a fix during the period when the fix is not in time" was written into US (CISA BOD 26-04, relying on the announcement) and Japanese rules without a source that measured its effect.
+- Consensus (Chapter 4): every proposal that three or more issuer types agree on predates AI.
+- Gaps (Chapter 6): 14 of 211 proposals carry a measured effect, all conditional correlations; data minimisation (K5) numbers 13 including secondary classifications (9 primary), the fewest of nine kinds, written only by governments/public bodies (12) and one insurer; 38 rows prescribe for notices that do not disclose the vector — 8 addressed to the public, 22 to authorities or data subjects, 8 to logs/investigation/other; only one Japanese individual expert's primary source reached.
+- Hold less (Chapter 7): how much is held sets the ceiling on what can leak; a measure that matters whether or not the intrusion succeeds and that a company can decide alone.
+- Notice (Chapter 8): only one proposal states a log-retention period in days — India CERT-In directive of 28 April 2022, 180 days; Mandiant wrote that standard 90-day log retention leaves organisations blind to the initial access vector and reported dwell times of nearly 400 days for BRICKSTORM.
+- Tell (Chapter 9): among Japan's 71 breach notices (sister ledger, 3rd edition, 26 Oct 2026), the first notice gave the ceiling in 18, narrowed from records in 24, could not state a number in 14, and read either way in 15 (all row IDs in Appendix B-5); no obligation to disclose the intrusion route to the public was found in the sources the book opened; Japan PPC: preliminary report in 3–5 days, final within 30 days (60 for some cases); EU NIS2 Recital 102: 24 hours / 72 hours / one month; SEC Form 8-K Item 1.05: four business days.
+- Stop (Chapter 10): Japan's Financial Services Agency and Bank of Japan request of 22 May 2026 asked top management to hold criteria set in advance for stopping — the only such proposal in the collection; 0 of 71 notices named who decided to stop.
+- Vendors (Chapter 11): in Q1 FY2026 (April–June 2026), 12 of the PPC's guidance actions to private businesses concerned supervision of contractors; companies with no contract at all are among those supervised.
+- Board (Chapter 12): what passes approval, insurance and the board is the company's own numbers, not evidence of effect; Marsh McLennan (controls vs. claims, correlation, organisation count not stated) and Coalition 2026 Claims Report (BEC/FTF 58%) treated as correlations with conditions stated.
+- Verification record (Appendix B-1): 11 tracked numbers — e.g. "82% of denied claims lacked MFA" attributed to Coalition, denied by Coalition itself on 31 Aug 2026 ("factually incorrect"); "44%"/"over 40% of claims denied" attributed to Advisen and Fitch, unpublished per Coalition; "fix high-severity vulnerabilities within 7 days halves incident rate" attributed to Coalition — source not found in two independent searches, not used; 13 Japanese-expert URLs reported by one AI research tool did not exist (3 of 13 opened), all excluded.
+- Updates are confined to three places: data/proposals.csv, Appendix B, and the indicator table in the conclusion. Prose changes are preceded by "(added/corrected on D Month YYYY)". Rows are never deleted.
+
+## Structure
+
+- Introduction: The Question — What Remained After the Notices Were Lined Up
+- Part 1: Why It Cannot Be Prevented — Ch.1 The Speed Asymmetry (29 minutes and 43 days); Ch.2 Three Primary Sources That Wrote "Not New"; Ch.3 Institutionalisation Without Evidence
+- Part 2: A Map of the World's Proposals — Ch.4 Consensus; Ch.5 Conflict (fix faster vs. act on the premise that you cannot fix); Ch.6 Gaps (no measured effects, thirteen on data minimisation)
+- Part 3: The Three Things a Company Can Decide — Ch.7 Hold Less; Ch.8 Notice (who decides how long logs are kept); Ch.9 Tell (who decides how many people to notify)
+- Part 4: Getting It Through the Company — Ch.10 The Decision to Stop; Ch.11 Vendors and the Reality of "No Contract"; Ch.12 Insurance, Ringi and the Board
+- Conclusion: What to Count Again in the Next Edition (16 indicators; no forecasts)
+- Appendix A: Method — How We Collected, Verified and Counted
+- Appendix B: Verification Record — Numbers We Could and Could Not Confirm
+
+## Files
+
+- [Japanese text](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era/blob/main/docs/jp/enterprise-security-in-the-ai-era_JP.md)
+- [English text](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era/blob/main/docs/en/enterprise-security-in-the-ai-era_EN.md)
+- [proposals.csv (canonical ledger)](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era/blob/main/data/proposals.csv)
+- [count_proposals.py (recount script)](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era/blob/main/scripts/count_proposals.py)
+- [Update runbook](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era/blob/main/docs/UPDATE_RUNBOOK.md)
+- Companion: [The Japan Breach Registry 2026](https://github.com/Leading-AI-IO/the-japan-breach-registry-2026)
+
+## Author
+
+Satoshi Yamauchi (山内怜史) — AI Strategist & Business Designer, Sun Asterisk Inc.; Founder, Leading.AI. Catalog: https://github.com/Leading-AI-IO
+
+## License
+
+CC BY 4.0

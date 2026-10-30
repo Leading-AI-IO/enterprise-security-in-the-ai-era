@@ -1,0 +1,8 @@
+﻿# 署名用の秘密鍵・失効証明書はこのリポジトリに置かない（docs/UPDATE_RUNBOOK.md 参照）
+backup-private-key.asc
+private-key.asc
+*.asc
+*.rev
+*.gpg
+*.key
+*.pgp
