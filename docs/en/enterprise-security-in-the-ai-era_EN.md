@@ -11,6 +11,33 @@
 
 ---
 
+## Contents
+
+- [Introduction: The Question — What Remained After the Notices Were Lined Up](#introduction-the-question--what-remained-after-the-notices-were-lined-up)
+- **[Part 1: Why It Cannot Be Prevented](#part-1-why-it-cannot-be-prevented)**
+  - [Chapter 1: The Speed Asymmetry — 29 Minutes and 43 Days](#chapter-1-the-speed-asymmetry--29-minutes-and-43-days)
+  - [Chapter 2: Three Primary Sources That Wrote “Not New” — What AI Did Not Change](#chapter-2-three-primary-sources-that-wrote-not-new--what-ai-did-not-change)
+  - [Chapter 3: Institutionalisation Without Evidence — How “Mitigation May Substitute” Became Rule](#chapter-3-institutionalisation-without-evidence--how-mitigation-may-substitute-became-rule)
+- **[Part 2: A Map of the World's Proposals](#part-2-a-map-of-the-worlds-proposals)**
+  - [Chapter 4: Consensus — Every Proposal Eight Kinds of Issuers Agree On Predates AI](#chapter-4-consensus--every-proposal-eight-kinds-of-issuers-agree-on-predates-ai)
+  - [Chapter 5: Conflict — Fix Faster vs. Act on the Premise That You Cannot Fix](#chapter-5-conflict--fix-faster-vs-act-on-the-premise-that-you-cannot-fix)
+  - [Chapter 6: Gaps — No Measured Effects, Thirteen on Data Minimisation](#chapter-6-gaps--no-measured-effects-thirteen-on-data-minimisation)
+- **[Part 3: The Three Things a Company Can Decide](#part-3-the-three-things-a-company-can-decide)**
+  - [Chapter 7: Hold Less — The Only Way to Reduce Harm Whether or Not the Intrusion Succeeds](#chapter-7-hold-less--the-only-way-to-reduce-harm-whether-or-not-the-intrusion-succeeds)
+  - [Chapter 8: Notice — Who Decides How Long Logs Are Kept?](#chapter-8-notice--who-decides-how-long-logs-are-kept)
+  - [Chapter 9: Tell — Who Decides How Many People to Notify?](#chapter-9-tell--who-decides-how-many-people-to-notify)
+- **[Part 4: Getting It Through the Company](#part-4-getting-it-through-the-company)**
+  - [Chapter 10: The Decision to Stop — Who Decides, and When?](#chapter-10-the-decision-to-stop--who-decides-and-when)
+  - [Chapter 11: Vendors and the Reality of “No Contract” — Where in the Contract Are Your Decisions Written?](#chapter-11-vendors-and-the-reality-of-no-contract--where-in-the-contract-are-your-decisions-written)
+  - [Chapter 12: Insurance, Ringi and the Board — Where Do Your Decisions Get Through?](#chapter-12-insurance-ringi-and-the-board--where-do-your-decisions-get-through)
+- [Conclusion: What to Count Again in the Next Edition](#conclusion-what-to-count-again-in-the-next-edition)
+- [Appendix A: Method — How We Collected, Verified and Counted](#appendix-a-method--how-we-collected-verified-and-counted)
+- [Appendix B: Verification Record — Numbers We Could and Could Not Confirm](#appendix-b-verification-record--numbers-we-could-and-could-not-confirm)
+
+<br/>
+
+---
+
 # Introduction: The Question — What Remained After the Notices Were Lined Up
 
 ## After the 71 notices
