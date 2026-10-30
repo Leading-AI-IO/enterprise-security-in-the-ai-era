@@ -1,6 +1,4 @@
-# Where the Patch Ends
-
-**Reading Enterprise Security in the AI Era from the World's Proposals**
+# Where the Patch Ends — Reading Enterprise Security in the AI Era from the World’s Proposals
 
 "The race to prevent intrusion is being lost to the attackers on speed. The only things a company can decide for itself are three: what to hold, when to notice and how to tell. And these three are the thinnest part of the world's proposals."
 
