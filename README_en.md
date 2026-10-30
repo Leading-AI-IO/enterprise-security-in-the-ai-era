@@ -147,15 +147,31 @@ This book is connected to the following open-source projects.
 
 | Project | Summary | Link |
 | --- | --- | --- |
-| **The Japan Breach Registry 2026**  | The autumn 2026 wave of personal-data breaches at Japanese companies and organisations. The companion volume to this book (the ledger of facts) | [GitHub](https://github.com/Leading-AI-IO/the-japan-breach-registry-2026) |
-| **The AI Forecast Registry**        | A ledger that records forecasts about AI before they are settled and follows their outcomes in the speakers' own words. Where this book's forecasts would go, if it made any | [GitHub](https://github.com/Leading-AI-IO/the-ai-forecast-registry)       |
-| **The China AI Registry**           | Reading China's AI industry through the authorities' registry of 988 filed services | [GitHub](https://github.com/Leading-AI-IO/the-china-ai-registry)          |
-| **The Anatomy of Anthropic**        | A comprehensive anatomy of Anthropic's strategy, products, research and safety | [GitHub](https://github.com/Leading-AI-IO/anatomy-of-anthropic)           |
-| **The Silence of Intelligence**     | The thought of Anthropic CEO Dario Amodei, systematised | [GitHub](https://github.com/Leading-AI-IO/the-silence-of-intelligence)    |
-| **Frontier-Grade Open Weights**     | Were frontier-grade open-weight models actually opened? | [GitHub](https://github.com/Leading-AI-IO/frontier-grade-open-weights)    |
-| **US-China AI Competition**         | The multi-layered structure of US–China AI competition | [GitHub](https://github.com/Leading-AI-IO/us-china-ai-competition)        |
-| **Earned AI Model Optionality**     | AI models can be chosen — but only by the companies that made them choosable | [GitHub](https://github.com/Leading-AI-IO/earned-ai-model-optionality)    |
-| **The AI Strategist**               | Defining the profession of the AI strategist | [GitHub](https://github.com/Leading-AI-IO/the-ai-strategist)              |
+| **The AI Strategist**               | Defining the AI Strategist role with practical frameworks for the BTC intersection                              | [GitHub](https://github.com/Leading-AI-IO/the-ai-strategist)              |
+| **Depth & Velocity**                | A methodology for new business development in the generative AI era                                             | [GitHub](https://github.com/Leading-AI-IO/depth-and-velocity)             |
+| **The Silence of Intelligence**     | Systematizing Anthropic CEO Dario Amodei's philosophy — Industry Anatomy Series #2                              | [GitHub](https://github.com/Leading-AI-IO/the-silence-of-intelligence)    |
+| **The Anatomy of Anthropic**        | A comprehensive dissection of Anthropic's strategy, products, research, and safety                              | [GitHub](https://github.com/Leading-AI-IO/the-anatomy-of-anthropic)       |
+| **The Palantir Impact**             | Dissecting Palantir Foundry's ontology strategy — Industry Anatomy Series #1                                    | [GitHub](https://github.com/Leading-AI-IO/palantir-ontology-strategy)     |
+| **What They Won't Teach You**       | What the AI-advantaged generation won't teach you about AI and the "Thinking OS"                                | [GitHub](https://github.com/Leading-AI-IO/what-they-wont-teach-you)       |
+| **The Edge of Intelligence**        | When AI runs on your device: the end of cloud, the beginning of edge                                            | [GitHub](https://github.com/Leading-AI-IO/edge-ai-intelligence)           |
+| **The Redesign of Design Strategy** | Redefining design strategy, including a structural analysis of IDEO's decline                                   | [GitHub](https://github.com/Leading-AI-IO/design-strategy-in-the-ai-era)  |
+| **The Orchestrator**                | The first-ever definition of the rarest role in the AI era                                                      | [GitHub](https://github.com/Leading-AI-IO/the-orchestrator-in-the-ai-era) |
+| **Advertising, Redesigned**         | An open-source book exploring the future of advertising in the AI era through strategic analysis of 7 companies | [GitHub](https://github.com/Leading-AI-IO/advertising-redesigned)         |
+| **The AI Organization**             | The root cause of AI failure is not technology. Organizational theory for the AI era                            | [GitHub](https://github.com/Leading-AI-IO/the-ai-organization)  |
+| **The Structural Shift from SaaS**  | SaaS Is Dead: The Structural Shift from SaaS to Service-as-a-Software                                           | [GitHub](https://github.com/Leading-AI-IO/saas-is-dead-the-next-ai-business-model)  |
+| **The 10:80:10 Principle**          | The optimal balance for human-AI synergy:「10:80:10」in the AI era.                                             | [GitHub](https://github.com/Leading-AI-IO/the-10-80-10-principle)  |
+| **A Trillion Dollars and a Firebomb** | The Parallel Realities of the AI Era | [GitHub](https://github.com/Leading-AI-IO/a-trillion-and-a-firebomb) |
+| **The End of the Attention Economy** | The End of the Attention Economy. What Should the Next SNS Look Like? | [GitHub](https://github.com/Leading-AI-IO/the-attention-economy-is-over)  |
+| **The Growth Engine of Anthropic** | Decoding the $1T Trajectory | [GitHub](https://github.com/Leading-AI-IO/the-growth-engine-of-anthropic)  |
+| **The Agentic Commerce Economy** | When AI Agents Buy, the Advertising Model Paradigm Shift | [GitHub](https://github.com/Leading-AI-IO/agentic-commerce-economy)  |
+| **Will ai break the planet** | The AI Infrastructure Boom and the Race Against the Climate's Point of No Return | [GitHub](https://github.com/Leading-AI-IO/will-ai-break-the-planet)  |
+| **The-forward-deployed-shift** | The Forward Deployed Shift — Where Value Survives When "Building" Is Over | [GitHub](https://github.com/Leading-AI-IO/the-forward-deployed-shift)  |
+| **Frontier-Grade Open Weights** | They Matched the Frontier. But No One Can Hold Them | [GitHub](https://github.com/Leading-AI-IO/frontier-grade-open-weights)  |
+| **Earned-ai-model-optionality** | AI Models Are Switchable. But Only for Companies That Made Them So | [GitHub](https://github.com/Leading-AI-IO/earned-ai-model-optionality)  |
+| **Us-china-ai-competition** | The Layers of US-China AI Competition — What is being decided is not who is stronger, but who writes the terms | [GitHub](https://github.com/Leading-AI-IO/us-china-ai-competition)  |
+| **The China AI Registry** | The five Chinese AI models you can name are under 1% of the ones China counts | [GitHub](https://github.com/Leading-AI-IO/the-china-ai-registry)  |
+| **The AI Forecast Registry** | The AI Forecast Registry — Recording What Was Predicted, Before It Resolves | [GitHub](https://github.com/Leading-AI-IO/the-ai-forecast-registry)  |
+| **Enterprise Security in The AI Era** | Where the Patch Ends — Reading Enterprise Security in the AI Era from the World’s Proposals | [GitHub](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era)  |
 
 For other books, see [github.com/Leading-AI-IO](https://github.com/Leading-AI-IO).
 
