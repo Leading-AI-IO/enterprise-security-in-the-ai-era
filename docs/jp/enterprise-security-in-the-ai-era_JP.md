@@ -1,4 +1,4 @@
-# Where the Patch Ends ── パッチの向こう側
+# パッチの向こう側 ── AI時代のエンタープライズ・セキュリティを、世界の提言から読む
 
 > **"The race to prevent intrusion is being lost to the attackers on speed. The only things a company can decide for itself are three: what to hold, when to notice and how to tell. And these three are the thinnest part of the world's proposals."** <br>
 > （侵入を防ぐ競争は、速度で攻撃側に負けている。会社が自分で決められるのは「何を持つか」「いつ気づくか」「どう伝えるか」の三つだけであり、この三つは世界の提言の中で最も薄い）
