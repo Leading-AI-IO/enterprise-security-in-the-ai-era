@@ -8,7 +8,10 @@
 > ledger (data/proposals.csv) and counted only when the author opened the
 > primary source and verified the wording (tiers T1 and T2). The first
 > edition (30 October 2026) holds 263 rows, of which 211 are counted; 39
-> unverified rows remain as T3 and are not used. Parts 1 and 2 assert
+> unverified rows remain as T3 and are not used. Of the 211, the author
+> opened 90 directly; 121 were opened at the author's instruction by an AI
+> research assistant, which checked the wording and left the record in
+> each row's issuer column (Appendix A-3). Parts 1 and 2 assert
 > nothing: attackers move in minutes while defenders move in days; the
 > issuers themselves wrote that their proposals are "not new"; the
 > stop-gap for the period when a fix is not in time was written into US
@@ -37,7 +40,7 @@
 - "Not new" (Chapter 2): three primary sources whose issuers wrote that the recommended measures are the same as before AI.
 - Institutionalisation without evidence (Chapter 3): the stop-gap "mitigation may substitute for a fix during the period when the fix is not in time" was written into US (CISA BOD 26-04, relying on the announcement) and Japanese rules without a source that measured its effect.
 - Consensus (Chapter 4): every proposal that three or more issuer types agree on predates AI.
-- Gaps (Chapter 6): 14 of 211 proposals carry a measured effect, all conditional correlations; data minimisation (K5) numbers 13 including secondary classifications (9 primary), the fewest of nine kinds, written only by governments/public bodies (12) and one insurer; 38 rows prescribe for notices that do not disclose the vector — 8 addressed to the public, 22 to authorities or data subjects, 8 to logs/investigation/other; only one Japanese individual expert's primary source reached.
+- Gaps (Chapter 6): 14 of 211 proposals are recorded as having a measured effect, and none meets the book's criterion (a real-environment comparison of outcomes with and without the control); the 14 break down into 4 experimental, 3 real-world correlations or descriptive statistics, 5 measurements of something other than a defence's effect, 2 failures of defences; data minimisation (K5) numbers 13 including secondary classifications (9 primary), the fewest of nine kinds, written only by governments/public bodies (12) and one insurer; 38 rows prescribe for notices that do not disclose the vector — 8 addressed to the public, 22 to authorities or data subjects, 8 to logs/investigation/other; only one Japanese individual expert's primary source reached.
 - Hold less (Chapter 7): how much is held sets the ceiling on what can leak; a measure that matters whether or not the intrusion succeeds and that a company can decide alone.
 - Notice (Chapter 8): only one proposal states a log-retention period in days — India CERT-In directive of 28 April 2022, 180 days; Mandiant wrote that standard 90-day log retention leaves organisations blind to the initial access vector and reported dwell times of nearly 400 days for BRICKSTORM.
 - Tell (Chapter 9): among Japan's 71 breach notices (sister ledger, 3rd edition, 26 Oct 2026), the first notice gave the ceiling in 18, narrowed from records in 24, could not state a number in 14, and read either way in 15 (all row IDs in Appendix B-5); no obligation to disclose the intrusion route to the public was found in the sources the book opened; Japan PPC: preliminary report in 3–5 days, final within 30 days (60 for some cases); EU NIS2 Recital 102: 24 hours / 72 hours / one month; SEC Form 8-K Item 1.05: four business days.

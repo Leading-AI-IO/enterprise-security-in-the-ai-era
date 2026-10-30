@@ -22,7 +22,9 @@
 > bodies, AI companies, security companies, insurers, academia, individual experts and regulators —
 > **admitting only those whose primary source the author opened and verified in the text**, and from
 > that ledger shows what a company can decide. It is an updatable book. The first edition (30 October
-> 2026) holds 263 rows, of which 211 verified proposals are counted in the text. Parts 1 and 2 assert
+> 2026) holds 263 rows, of which 211 verified proposals are counted in the text (90 opened by the
+> author, 121 opened at the author's instruction by an AI research assistant, which checked the
+> wording and left the record in the ledger). Parts 1 and 2 assert
 > nothing: they record, in the words of the primary sources, that attackers move in minutes while
 > defenders move in days, that the issuers themselves wrote that their proposals are "not new", and
 > that the stop-gap for the period when a fix is not in time was written into law without measured
@@ -39,7 +41,10 @@
 > **Governance**: The author is the sole writer. One criterion admits a row into the count — the
 > author opened the primary source and verified the wording (tiers T1 and T2); unverified rows stay
 > in the ledger as T3 and are not counted. The claims from Part 3 onward are the author's and are
-> kept apart from what the sources say. The author is not a security specialist but an AI strategist
+> kept apart from what the sources say. Primary sources are opened by the author; in edition 1, 121 rows
+> were opened at the author's instruction by an AI research assistant (a sub-agent), which checked the
+> wording and left the record in each row (Appendix A-3), so rows the author did not open directly can
+> be told apart in the ledger. The author is not a security specialist but an AI strategist
 > who has written on how AI changes business and organisations. Readers verify the ledger, report
 > errors, and point to primary sources.
 >
@@ -59,7 +64,7 @@ When the ledger was closed, one question remained. **Then what does a company de
 
 Proposals written in 2025–2026 by eight kinds of issuer were placed in the ledger `data/proposals.csv` only after the author opened the URL of the primary source and verified the wording in the text. The first edition holds 263 rows, of which 211 (non-merged rows in tiers T1 and T2) are counted. Each proposal is classified into one of nine kinds (K1–K9), and its correspondence to the intrusion vectors in the Japanese breach ledger is recorded row by row.
 
-The proposals were then read with three questions: where they agree (Chapter 4), where they conflict (Chapter 5), and where they fall silent (Chapter 6). **Of the 211, fourteen have a measured effect, and every one of those is a conditional correlation. Data minimisation (K5) numbers thirteen including secondary classifications — the fewest of the nine kinds — and is written only by governments and public bodies and a single insurer.**
+The proposals were then read with three questions: where they agree (Chapter 4), where they conflict (Chapter 5), and where they fall silent (Chapter 6). **Of the 211, fourteen are recorded as having a measured effect, and none meets this book's criterion (a measurement in companies' real environments comparing outcomes with and without the control). Data minimisation (K5) numbers thirteen including secondary classifications — the fewest of the nine kinds — and is written only by governments and public bodies and a single insurer.**
 
 ### The three things a company can decide
 
@@ -107,6 +112,7 @@ The book does not say which measures prevent attacks; there is no source that me
 | Date | Version | Contents |
 | --- | --- | --- |
 | 2026-10-30 | v1.0 | First edition. Proposal ledger of 263 rows (211 counted, 39 in T3). Introduction, Chapters 1–12, conclusion, Appendices A and B. Japanese and English editions |
+| 2026-10-30 | v1.0 (corrected) | Same-day corrections after publication. (1) The “effect measured” wording aligned with Chapter 6's breakdown (14 recorded, 0 meeting the book's criterion; Chapter 12, conclusion, two figures, Appendix A-4). (2) Opening records added to 121 T1/T2 rows; who opened them (author 90 / AI research assistant 121) stated in Appendices A-3 and B-3; six empty URLs filled. (3) “The numbers this chapter stands on” panels added to Chapters 7–12; table of contents added at the head of the text. No rows deleted, no tiers changed |
 
 ---
 

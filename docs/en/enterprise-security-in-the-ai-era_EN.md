@@ -1463,6 +1463,8 @@ Where there are no measured numbers, unmeasured numbers move in.
 
 Coalition's article gives its own readers three checks: when citing a statistic, check its source, its method and its context.<br/>
 The numbers this book uses in Parts 1 and 3 have all passed these three checks, and are limited to those whose primary-source URL the author opened.<br/>
+(Corrected on 30 October 2026)<br/>
+Among the rows behind the figures in Parts 1 and 3, those the author did not open directly were opened by an AI research assistant at the author's instruction, which checked the wording and left the record in the ledger's `issuer` column (Appendix A, “Verification steps”).<br/>
 How the numbers that did not pass were handled is written in the verification record in the appendix.
 
 ```mermaid
@@ -1482,7 +1484,7 @@ flowchart TB
       L["Proposals setting log retention in days: 1"]
       N["Systems setting how many to notify in the first notice: 0"]
     end
-    Z["Proposals with measured effect: 14 of 211<br/>each a correlation with conditions"]
+    Z["Recorded as effect measured: 14 of 211<br/>Meeting this book's criterion: 0"]
     THICK --- Z --- THIN
     classDef teal fill:#9DBDBE,stroke:#3F6B73,stroke-width:2px,color:#1F3338
     classDef mustard fill:#E3C578,stroke:#A8832E,stroke-width:2px,color:#3A2E12
@@ -1566,6 +1568,20 @@ Of the documents named in this chapter, those that first appear in the main text
 ---
 
 # Chapter 7: Hold Less — The Only Way to Reduce Harm Whether or Not the Intrusion Succeeds
+
+## The numbers this chapter stands on
+
+**As of edition 1 (30 October 2026)**
+
+| Number | Issuer and source | Period covered | Next update |
+|---|---|---|---|
+| K5 “Data minimisation and structure”: 13 proposals (9 as primary classification); of the 13, 12 from governments and public bodies and 1 from an insurer | This book’s proposal ledger `data/proposals.csv` (211 proposals in T1 and T2) | As of 30 October 2026 | Next edition (indicators 3 and 4 in the conclusion) |
+| OAIC announcement: 667 notifications in the first half of 2026; breaches affecting over one million people rose from 4 to 11 | Office of the Australian Information Commissioner, announcement of 26 October 2026 | First half of 2026 | OAIC’s next half-year statistics |
+| Basis of the Korean PIPC proposal: 447 breach reports in 2025, 432 in the first half of 2026 | Korea’s Personal Information Protection Commission (PIPC) proposal | 2025 and first half of 2026 | PIPC’s next statistics |
+| Three rows where what was held set the size of the harm: Helpfeel (Gyazo) about 23.62 million records, Times Mobility 6,628,007 records, Daiki Suisan 174,933 persons | Each notice in the companion volume The Japan Breach Registry 2026, third edition | As of 26 October 2026 | Companion volume’s next edition |
+
+“Next update” in the table refers to the issuer’s, or the companion volume’s, next publication, or to the next edition of this book.<br/>
+When a number is updated, replace this table, and change the text only where the argument changes, placing “(added/corrected on D Month YYYY)” before the change.
 
 ## How to read Part 3
 
@@ -1956,6 +1972,21 @@ The proposal text is also replaced from a summary with the original wording (“
 
 # Chapter 8: Notice — Who Decides How Long Logs Are Kept?
 
+## The numbers this chapter stands on
+
+**As of edition 1 (30 October 2026)**
+
+| Number | Issuer and source | Period covered | Next update |
+|---|---|---|---|
+| Only one proposal states a log-retention period in days (India’s CERT-In, 180 days) | CERT-In directions of 28 April 2022; ten rows in the ledger | As of 30 October 2026 | Next edition (indicator 5 in the conclusion) |
+| Standard 90-day log retention leaves the initial access vector invisible; BRICKSTORM dwell time of nearly 400 days | Mandiant (Google Cloud), announcement of M-Trends 2026 (23 March 2026) | 2025 | 2027 edition |
+| Median ransomware dwell time of 6 days | Mandiant Consulting (24 January 2026); the figure is from M-Trends 2025 | Reporting period of M-Trends 2025 | Mandiant’s next annual report |
+| In the 15 rows where the notice states both the intrusion date and the discovery date, 2 hours 30 minutes to over a year from intrusion to discovery | Companion volume The Japan Breach Registry 2026, third edition (71 rows) | As of 26 October 2026 | Companion volume’s next edition |
+| Detection (K3): 37 proposals including secondary classifications | This book’s proposal ledger `data/proposals.csv` | As of 30 October 2026 | Next edition |
+
+“Next update” in the table refers to the issuer’s, or the companion volume’s, next publication, or to the next edition of this book.<br/>
+When a number is updated, replace this table, and change the text only where the argument changes, placing “(added/corrected on D Month YYYY)” before the change.
+
 ## This chapter's proposal
 
 **Have management, not the information systems department, decide the log retention period and the review cycle in numbers.<br/>
@@ -2264,6 +2295,20 @@ The proposal text is replaced from a summary with the original wording.
 ---
 
 # Chapter 9: Tell — Who Decides How Many People to Notify?
+
+## The numbers this chapter stands on
+
+**As of edition 1 (30 October 2026)**
+
+| Number | Issuer and source | Period covered | Next update |
+|---|---|---|---|
+| Forms of Japan’s 71 breach notices: A 18 / B 24 / C 14 / D 15 | Companion volume The Japan Breach Registry 2026, third edition, classified by the author (Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)”) | As of 26 October 2026 | Companion volume’s next edition (indicators 10 to 12 in the conclusion) |
+| Personal Information Protection Commission: preliminary report within 3–5 days of discovery, final report within 30 days, within 60 days where there is a risk of unlawful purpose | The Commission’s original page (checked 30 October 2026) | Current rules | When the rules are amended |
+| EU NIS2 Recital 102: early warning 24 hours, incident notification 72 hours, final report within one month | EUR-Lex (Recital 102, checked 30 October 2026; the text of Article 23 remains to be compared with the official version) | Current rules | When the work in Appendix A, “Work remaining in edition 1” is done |
+| US SEC Form 8-K Item 1.05: within four business days of the materiality determination | SEC (original text) | Current rules | When the rules are amended |
+
+“Next update” in the table refers to the issuer’s, or the companion volume’s, next publication, or to the next edition of this book.<br/>
+When a number is updated, replace this table, and change the text only where the argument changes, placing “(added/corrected on D Month YYYY)” before the change.
 
 ## This chapter's proposal
 
@@ -2607,6 +2652,20 @@ For NIS2, only recital 102 was checked on EUR-Lex; the text of Article 23 is not
 ---
 
 # Chapter 10: The Decision to Stop — Who Decides, and When?
+
+## The numbers this chapter stands on
+
+**As of edition 1 (30 October 2026)**
+
+| Number | Issuer and source | Period covered | Next update |
+|---|---|---|---|
+| Request 8: top management considers in advance the option of actively stopping services when risk rises | Joint request of the Financial Services Agency and the Bank of Japan (22 May 2026) | May 2026 | When the request is revised |
+| One proposal asks management to hold criteria for stopping in advance | 263 rows in the ledger (211 in T1 and T2), as far as the author has read | As of 30 October 2026 | Next edition (indicator 6 in the conclusion) |
+| 0 of 71 notices state who decided to stop | Companion volume The Japan Breach Registry 2026, third edition | As of 26 October 2026 | Next edition (indicator 14 in the conclusion) |
+| Time from detection to stopping: Helpfeel a few hours, Times Mobility about 22 hours, Lindt 2 days, White Essence 7 days | Each notice in the companion volume, third edition | As of 26 October 2026 | Companion volume’s next edition |
+
+“Next update” in the table refers to the issuer’s, or the companion volume’s, next publication, or to the next edition of this book.<br/>
+When a number is updated, replace this table, and change the text only where the argument changes, placing “(added/corrected on D Month YYYY)” before the change.
 
 ## How to read Part 4
 
@@ -2959,6 +3018,19 @@ The times in the section “The Japanese registry — how long the companies tha
 
 # Chapter 11: Vendors and the Reality of “No Contract” — Where in the Contract Are Your Decisions Written?
 
+## The numbers this chapter stands on
+
+**As of edition 1 (30 October 2026)**
+
+| Number | Issuer and source | Period covered | Next update |
+|---|---|---|---|
+| Guidance and advice by the Personal Information Protection Commission, April–June 2026: 98 to private businesses, 43 to administrative bodies, 141 in total; of the private-sector cases, 12 concerned supervision of contractors | Personal Information Protection Commission, “Status of exercise of monitoring and supervisory powers, first quarter of FY2026” (Material 3-1, 2 September 2026; original PDF checked 30 October 2026) | April–June 2026 | Next quarterly report (indicator 15 in the conclusion) |
+| Rows whose intrusion vector is a contractor: 16 of 71 | Companion volume The Japan Breach Registry 2026, third edition | As of 26 October 2026 | Companion volume’s next edition |
+| Proposals addressed to the commissioning party: 9 rows; to the contractor: 3 rows | This book’s proposal ledger `data/proposals.csv` | As of 30 October 2026 | Next edition |
+
+“Next update” in the table refers to the issuer’s, or the companion volume’s, next publication, or to the next edition of this book.<br/>
+When a number is updated, replace this table, and change the text only where the argument changes, placing “(added/corrected on D Month YYYY)” before the change.
+
 ## Where this chapter sits in Part 4
 
 The three things decided in Part 3 (what to hold, when to notice, how to tell), and the criteria for stopping in Chapter 10, are not complete inside the company alone.<br/>
@@ -3273,6 +3345,18 @@ The dates in the section “Japan's registry — the structure of the 16 vendor 
 
 # Chapter 12: Insurance, Ringi and the Board — Where Do Your Decisions Get Through?
 
+## The numbers this chapter stands on
+
+**As of edition 1 (30 October 2026)**
+
+| Number | Issuer and source | Period covered | Next update |
+|---|---|---|---|
+| Organisations that regularly run tabletop exercises are 13% less likely to experience a material cyber event; phishing-resistant MFA is 9% lower than ordinary MFA. Self-assessment questionnaires matched to claims; number of organisations not stated; correlation | Marsh McLennan Cyber Risk Intelligence Center, press release (27 August 2025; original checked 30 October 2026) | Marsh’s reporting period | Marsh’s next report |
+| 58% of 2025 claims were business email compromise and funds-transfer fraud; claims data from over 100,000 policyholders | Coalition, announcement of the 2026 Cyber Claims Report (5 March 2026; checked 30 October 2026) | 2025 | Coalition’s next claims report |
+
+“Next update” in the table refers to the issuer’s, or the companion volume’s, next publication, or to the next edition of this book.<br/>
+When a number is updated, replace this table, and change the text only where the argument changes, placing “(added/corrected on D Month YYYY)” before the change.
+
 ## Where this chapter sits in Part 4
 
 Chapters 7 to 11 showed what the company decides, and where to write it (board papers, contracts).<br/>
@@ -3310,7 +3394,9 @@ It is a contest in assembling evidence on which a decision can be made.
 
 The evidence asked for in a security ringi is usually “how much will this investment lower the probability of a compromise?”<br/>
 As seen in Chapter 3, this evidence does not exist.<br/>
-Proposals with effect measured are 14 out of 211, and those 14 are conditional correlations.<br/>
+(Corrected on 30 October 2026)<br/>
+Proposals recorded as “effect measured” are 14 out of 211, and none of them meets this book's criterion (a measurement in companies' real environments that compares outcomes with and without the control).<br/>
+The 14 break down into 4 in experimental settings, 3 real-world correlations or descriptive statistics, 5 measurements of something other than a defence's effect, and 2 failures of defences (Chapter 6, “Gap 1”).<br/>
 The insurance broker Marsh McLennan matched its own self-assessment questionnaires against claims and wrote: “simply deploying key cybersecurity controls is no longer enough”.<br/>
 Coalition wrote: “More security tools and increased spending isn't making businesses any safer.”<br/>
 Both sell insurance, and their position includes that of a seller.<br/>
@@ -3357,7 +3443,7 @@ flowchart TB
 
     P["Put the three decisions up for ringi"]
     Q1["Evidence asked for<br/>How much does this investment lower the probability of a compromise?"]
-    E1["Does not exist<br/>Effect measured: 14 of 211, all conditional correlations"]
+    E1["Does not exist<br/>Recorded as effect measured: 14 of 211<br/>Meeting this book's criterion: 0"]
     STOP["Stalls"]
     Q2["Replacement evidence<br/>Own numbers: records held · days kept · scope of notification"]
     E2["Can be assembled if collected<br/>Facts from the registry's notices can be added"]
@@ -3573,7 +3659,8 @@ The issuers of the proposals themselves wrote that the content of their proposal
 The measures for the period when remediation cannot be made in time were written into US and Japanese rules without any source that measured their effect (Chapter 3).
 
 **The only things a company can decide for itself are three.**<br/>
-Of the 211 proposals, 14 measured their effect, and every one of those is a correlation with conditions (Chapter 6).<br/>
+(Corrected on 30 October 2026)<br/>
+Of the 211 proposals, 14 are recorded as having measured their effect, and none is a measurement in companies' real environments that compares outcomes with and without the control (Chapter 6).<br/>
 When we do not know what works, and we look for things that can be decided whether or not they work, two conditions remain.<br/>
 They must still matter if the attack succeeds.<br/>
 And the company must be able to decide them without anyone else's cooperation (the opening of Chapter 7).<br/>
@@ -3756,7 +3843,13 @@ The columns of `data/proposals.csv` are as follows.
 
 Tiers were judged by the following steps.
 
-1. The author opens the URLs in the `urls` column. If they cannot be opened, the row stays at T3.
+1. The author opens the URLs in the `urls` column. If they cannot be opened, the row stays at T3.<br/>
+(Corrected on 30 October 2026)<br/>
+Of the 211 proposals in edition 1, the author opened 90. The remaining 121 were opened on 30 October 2026, at the author's instruction, by an AI research assistant (a sub-agent), which checked whether the proposal's wording appears in the text.<br/>
+The result (how much of the page was read; whether the wording matched; a note where it was not found) is recorded in each row's `issuer` column in the form “（開封：2026-10-30 …、AI調査の補助（サブエージェント）がWebFetchで確認。…）”.<br/>
+Of the 121: wording matched 97; gist only 12; wording not found in the retrieved text 5 (A-100, C-019, C-021, D-029, H-030); page could not be opened, unverified 7 (A-091, F-003, F-008, F-010, G-015, H-019, H-029).<br/>
+No tier was changed.<br/>
+Rows the author did not open directly can be told apart by that record in the `issuer` column.
 2. If they open, check whether the wording in the `proposal` column is in the text. If the wording is not there, note in the `issuer` column that it was a summary from the research report, and replace it with the wording in the text.
 3. If the basis of the wording (the source of the data, the sample size, the method) is written in the same source, the row is T1. If it is not, the row is T2.
 4. Leave the record of opening (the date, whether the full text or an excerpt was read, whether it was opened by a sub-agent) in the `issuer` column.
@@ -3778,7 +3871,11 @@ The figures in the text were counted by the following rules.
 - **What is counted is the non-merged T1 and T2 rows** (rows where `merged_into` is empty). In edition 1, 211.
 - **Category (K) counts include secondary categories.** One proposal can be counted in more than one category. Only where the text says “primary category” is the count based on the first category in the `k` column.
 - **Consensus** (Chapter 4) means proposals pointing in the same direction written by three or more issuer types (A–H). The direction was judged by the author.
-- **Effect measured** (Chapter 6) means rows whose `status` column contains “効果測定あり” (effect measured). This includes correlations and does not require causation.
+- **Effect measured** (Chapter 6) means rows whose `status` column contains “効果測定あり” (effect measured). This includes correlations and does not require causation.<br/>
+(Corrected on 30 October 2026)<br/>
+Thirteen rows contain “効果測定あり” (C-011, E-008, E-009, E-011, E-012, E-014, F-004, F-006, F-008, F-009, F-010, F-012, F-013).<br/>
+Chapter 6's figure of 14 adds F-007 (whose `status` reads “measured the shortage of mitigations”; the row that measured the 13.4% rate of specific mitigations in OT advisories).<br/>
+In the breakdown table in Chapter 6, “Gap 1”, F-007 is among the five “measurements of something other than a defence's effect”.
 - **Correspondence with intrusion routes** (Chapter 6) is the `route` column. Where one proposal corresponds to more than one route, it is counted under each route.
 - **The classification of Japanese public notices** (Chapter 9) was judged by the author from the scale, status and notes columns of the companion book's `data/registry.csv`, by the form of the first notice. All rows are in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)”.
 
@@ -3812,7 +3909,8 @@ This section records what the author had not fully verified as of edition 1.
 | 4 | Collecting primary sources from individual experts in Japan directly | Chapter 6 |
 | 5 | Deciding whether to upgrade or set aside the 39 T3 rows | Part 2 |
 | 6 | Re-judging the borderline rows in Chapter 9's classification of public notices (A–D) | Chapter 9, Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” |
-| 7 | Re-checking the 14 “effect measured” proposals against the ledger's `status` column (because of some rows, a mechanical count comes to 13) | Chapter 6 |
+| 7 | Re-checking the 14 “effect measured” proposals against the ledger's `status` column (because of some rows, a mechanical count comes to 13). (Added 30 October 2026) Checked; the one-row difference is F-007 (see A-4) | Chapter 6 |
+| 8 | (Added 30 October 2026) The author's direct opening of the 121 rows opened by the AI research assistant, in particular the 5 rows whose wording was not found in the retrieved text and the 7 rows whose pages could not be opened (see A-3). Rows that cannot be confirmed go back to T3 | Part 2 |
 
 <br/>
 
@@ -3824,6 +3922,8 @@ This appendix records the figures this book used in the text, did not use, or co
 With each edition, the “State” of each row is updated.
 
 Under this book's method (Appendix A), the only figures behind proposals that are counted as T1 or T2 are those for which the author opened the primary source's URL and confirmed the relevant passage in the text.<br/>
+(Corrected on 30 October 2026)<br/>
+In edition 1, 121 of the 211 were opened, at the author's instruction, by an AI research assistant (a sub-agent), and the result is recorded in each row's `issuer` column (Appendix A, “Verification steps”).<br/>
 This appendix is the place for figures where that procedure stopped part-way.
 
 ## Figures we track (as of edition 1, 30 October 2026)
@@ -3859,7 +3959,10 @@ This appendix is the place for figures where that procedure stopped part-way.
 
 - **“Could not confirm” and “wrong” are different.** #7 and #8 were reported as “could not confirm” in the first search and were confirmed in the second. #5 was not reached either time, but it may still be reached a third time. This book keeps the state “Source unknown” for that possibility.
 - **Confirming means knowing which conditions are attached, not knowing that the figure is right.** For #7, “the patch release date is the reference point” and “estimate” only came to light in the process of checking.
-- **AI research tools return real media names, plausible article titles and non-existent URLs with the same confidence.** They cannot be told apart until they are opened. All 211 of this book's T1 and T2 proposals are ones whose URLs the author opened, so that there is no repeat of #6.
+- **AI research tools return real media names, plausible article titles and non-existent URLs with the same confidence.** They cannot be told apart until they are opened. All 211 of this book's T1 and T2 proposals are ones whose URLs the author opened, so that there is no repeat of #6.<br/>
+(Corrected on 30 October 2026)<br/>
+More precisely, of the 211, the author opened 90, and 121 were opened and their wording checked by an AI research assistant at the author's instruction (Appendix A, “Verification steps”).<br/>
+In both cases the record that the URL was opened and the text checked for the wording is kept in the `issuer` column; no row was admitted without being opened, as in #6.
 - **There are at least three ways for a figure to be wrong.** Fabrication or hallucination (#1), wrong attribution (#2 and #3), and lost context (#4). The third is the same type as what the Japanese breach registry (a separate factual registry from this book) has been recording as a problem of units.
 
 ## Update rules
