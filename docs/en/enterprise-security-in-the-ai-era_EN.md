@@ -44,7 +44,11 @@
 
 In the autumn of 2026, a string of personal data leaks was announced in Japan.<br/>
 I lined them up in a registry, one notice at a time and in the original wording of each notice, and published it as *The Japan Breach Registry 2026*.<br/>
-With the third edition, it reached 71 notices.
+With the third edition, it reached 71 notices.<br/>
+(Added on 3 November 2026)<br/>
+With its fourth edition on 3 November 2026, the registry reached 300 notices.<br/>
+Unless stated otherwise, the figures on breach notices cited in this book are based on the 71 notices of the third edition (26 October 2026).<br/>
+The fourth-edition figures are placed in the rightmost column of the indicator table in the conclusion.
 
 What I learned from lining them up, I wrote in the registry: that half of the notices did not state the intrusion route; that the unit used for the count differed from company to company; and that the time from intrusion to discovery ranged from two and a half hours to more than a year.<br/>
 That is a record of facts, and this book does not repeat it.<br/>
@@ -3026,6 +3030,7 @@ The times in the section “The Japanese registry — how long the companies tha
 |---|---|---|---|
 | Guidance and advice by the Personal Information Protection Commission, April–June 2026: 98 to private businesses, 43 to administrative bodies, 141 in total; of the private-sector cases, 12 concerned supervision of contractors | Personal Information Protection Commission, “Status of exercise of monitoring and supervisory powers, first quarter of FY2026” (Material 3-1, 2 September 2026; original PDF checked 30 October 2026) | April–June 2026 | Next quarterly report (indicator 15 in the conclusion) |
 | Rows whose intrusion vector is a contractor: 16 of 71 | Companion volume The Japan Breach Registry 2026, third edition | As of 26 October 2026 | Companion volume’s next edition |
+| (Added on 3 November 2026) Rows whose intrusion vector is a contractor: 179 of 300 | Companion volume The Japan Breach Registry 2026, fourth edition | As of 3 November 2026 | Companion volume’s next edition |
 | Proposals addressed to the commissioning party: 9 rows; to the contractor: 3 rows | This book’s proposal ledger `data/proposals.csv` | As of 30 October 2026 | Next edition |
 
 “Next update” in the table refers to the issuer’s, or the companion volume’s, next publication, or to the next edition of this book.<br/>
@@ -3039,6 +3044,10 @@ Records remain in vendors' systems.<br/>
 The starting point for telling is a report from a vendor.<br/>
 And what stops is often a vendor's service.<br/>
 Of the 71 rows of the registry for Japan, 16 have a vendor as the intrusion route.
+
+(Added on 3 November 2026)<br/>
+In the fourth edition of the companion book (3 November 2026, 300 rows), 179 rows have a vendor as the intrusion route.<br/>
+This chapter's section on the structure of the 16 vendor rows was written about the 16 rows of the third edition.
 
 The only means of making what you decided reach your vendors as well is the contract.<br/>
 This chapter uses supervision cases to confirm that, in Japan, you cannot assume such a contract “exists”.<br/>
@@ -3704,24 +3713,31 @@ When the edition changes, they show readers where to look to check whether this 
 
 ## Indicators to count again in the next edition
 
-| # | Indicator | Edition 1 (30 October 2026) | Chapter | How to count |
-|---|---|---|---|---|
-| 1 | Number of T1 and T2 proposals in the proposal ledger | 211 | Chapter 4 | `tier` column of `data/proposals.csv` |
-| 2 | Number of proposals with effect measured | 14 | Chapter 6 | `status` column of the same file |
-| 3 | Number of data minimisation (K5) proposals (including secondary category) | 13 (9 as primary category) | Chapters 6 and 7 | `k` column of the same file |
-| 4 | Number of issuer types that wrote K5 | 2 types (A government and public bodies, E insurers) | Chapter 6 | `type` column of the same file |
-| 5 | Number of proposals that set the log retention period in days | 1 (India's Indian Computer Emergency Response Team (CERT-In), 180 days) | Chapter 8 | Checked in the text |
-| 6 | Number of proposals that ask management to hold criteria for stopping in advance | 1 (Financial Services Agency (FSA) and Bank of Japan, Request 8) | Chapter 10 | Checked in the text |
-| 7 | Number of primary sources from individual experts in Japan | 1 | Chapter 6 | `type` column of the same file (G) and country of issue |
-| 8 | Total number of Japanese breach notices | 71 | Companion book | Companion book's `data/registry.csv` |
-| 9 | Of these, public notices that do not state the intrusion route | 35 | Chapters 6 and 9 | `経路` (route) column of the same file |
-| 10 | Of these, public notices that disclosed at the ceiling (A) | 18 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” |
-| 11 | Of these, public notices that narrowed by records (B) | 24 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” |
-| 12 | Of these, public notices that could not state a count (C) | 14 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” |
-| 13 | Public notices that state, in the first notice, whether a count is the “ceiling” or “confirmed” | Not counted in edition 1 | Chapter 9 | To be counted in the next edition |
-| 14 | Public notices that state who decided to stop | 0 | Chapter 10 | Checked in the text |
-| 15 | Number of Personal Information Protection Commission (PPC) guidance cases on “supervision of vendors” | 12 (April–June 2026, private-sector businesses) | Chapter 11 | PPC report on the exercise of its monitoring and supervisory powers |
-| 16 | Number of figures in Appendix B with the state “Source unknown” or “Denied by the issuer” | Source unknown: 1; Denied by the issuer: 1 | Appendix B | Appendix B, “Figures we track (as of edition 1, 30 October 2026)” |
+(Added on 3 November 2026)<br/>
+Because the companion book was updated to its fourth edition (3 November 2026, 300 rows), the values of indicators 8 and 9, which can be counted mechanically from its registry, have been added in the rightmost column.<br/>
+Indicator 9 is, as in edition 1, the number of rows whose `経路` (route) column in the companion book's `data/registry.csv` is “不正アクセス（経路未公表）” (unauthorised access, route not disclosed).<br/>
+Indicators 10 to 12 and 14 are not counted in this column, because the 229 rows added in the fourth edition have not yet been classified.<br/>
+This book's proposal ledger `data/proposals.csv` is unchanged from edition 1, so indicators 1 to 7, 15 and 16 have not changed.<br/>
+A “—” in the rightmost column means the indicator was not recounted in that column.
+
+| # | Indicator | Edition 1 (30 October 2026) | Chapter | How to count | Companion book edition 4 (checked 3 November 2026) |
+|---|---|---|---|---|---|
+| 1 | Number of T1 and T2 proposals in the proposal ledger | 211 | Chapter 4 | `tier` column of `data/proposals.csv` | — |
+| 2 | Number of proposals with effect measured | 14 | Chapter 6 | `status` column of the same file | — |
+| 3 | Number of data minimisation (K5) proposals (including secondary category) | 13 (9 as primary category) | Chapters 6 and 7 | `k` column of the same file | — |
+| 4 | Number of issuer types that wrote K5 | 2 types (A government and public bodies, E insurers) | Chapter 6 | `type` column of the same file | — |
+| 5 | Number of proposals that set the log retention period in days | 1 (India's Indian Computer Emergency Response Team (CERT-In), 180 days) | Chapter 8 | Checked in the text | — |
+| 6 | Number of proposals that ask management to hold criteria for stopping in advance | 1 (Financial Services Agency (FSA) and Bank of Japan, Request 8) | Chapter 10 | Checked in the text | — |
+| 7 | Number of primary sources from individual experts in Japan | 1 | Chapter 6 | `type` column of the same file (G) and country of issue | — |
+| 8 | Total number of Japanese breach notices | 71 | Companion book | Companion book's `data/registry.csv` | 300 |
+| 9 | Of these, public notices that do not state the intrusion route | 35 | Chapters 6 and 9 | `経路` (route) column of the same file | 74 |
+| 10 | Of these, public notices that disclosed at the ceiling (A) | 18 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | — |
+| 11 | Of these, public notices that narrowed by records (B) | 24 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | — |
+| 12 | Of these, public notices that could not state a count (C) | 14 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | — |
+| 13 | Public notices that state, in the first notice, whether a count is the “ceiling” or “confirmed” | Not counted in edition 1 | Chapter 9 | To be counted in the next edition | — |
+| 14 | Public notices that state who decided to stop | 0 | Chapter 10 | Checked in the text | — |
+| 15 | Number of Personal Information Protection Commission (PPC) guidance cases on “supervision of vendors” | 12 (April–June 2026, private-sector businesses) | Chapter 11 | PPC report on the exercise of its monitoring and supervisory powers | — |
+| 16 | Number of figures in Appendix B with the state “Source unknown” or “Denied by the issuer” | Source unknown: 1; Denied by the issuer: 1 | Appendix B | Appendix B, “Figures we track (as of edition 1, 30 October 2026)” | — |
 
 Whether the indicators rise or fall, they do not directly show whether this book's claim is right or wrong.<br/>
 For example, if indicator 3 rises, the “thinness” of the three proposals fades, but whether the proposals were right is a separate question.<br/>

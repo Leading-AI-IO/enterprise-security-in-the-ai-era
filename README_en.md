@@ -54,7 +54,7 @@
 
 ## 📖 Overview
 
-In the autumn of 2026, personal-data breaches were disclosed in Japan one after another. The author lined them up, one notice at a time and in the notices' own words, and published the ledger as the companion volume *The Japan Breach Registry 2026*. By its third edition it held 71 notices.
+In the autumn of 2026, personal-data breaches were disclosed in Japan one after another. The author lined them up, one notice at a time and in the notices' own words, and published the ledger as the companion volume *The Japan Breach Registry 2026*. By its third edition it held 71 notices. (Added on 3 November 2026) With its fourth edition (3 November 2026) the registry held 300 notices. Unless stated otherwise, the figures on breach notices cited in this book are based on the 71 notices of the third edition.
 
 When the ledger was closed, one question remained. **Then what does a company decide?** All 71 organisations that wrote those notices had taken measures: multi-factor authentication, patching, vendor management. They were doing what the world's proposals say. They still leaked. And afterwards, what the company could write was "we suffered unauthorised access" and "we cannot rule out the possibility that data was leaked".
 
@@ -113,6 +113,7 @@ The book does not say which measures prevent attacks; there is no source that me
 | --- | --- | --- |
 | 2026-10-30 | v1.0 | First edition. Proposal ledger of 263 rows (211 counted, 39 in T3). Introduction, Chapters 1–12, conclusion, Appendices A and B. Japanese and English editions |
 | 2026-10-30 | v1.0 (corrected) | Same-day corrections after publication. (1) The “effect measured” wording aligned with Chapter 6's breakdown (14 recorded, 0 meeting the book's criterion; Chapter 12, conclusion, two figures, Appendix A-4). (2) Opening records added to 121 T1/T2 rows; who opened them (author 90 / AI research assistant 121) stated in Appendices A-3 and B-3; six empty URLs filled. (3) “The numbers this chapter stands on” panels added to Chapters 7–12; table of contents added at the head of the text. No rows deleted, no tiers changed |
+| 2026-11-03 | v1.0 (added) | Reflects the fourth edition of the companion book *The Japan Breach Registry 2026* (300 rows). A column added to the indicator table in the conclusion (indicator 8: 300; indicator 9: 74; indicators 10–12 and 14 not counted, as the 229 added rows are not yet classified). Vendor rows 179 of 300 added to Chapter 11’s “numbers this chapter stands on” panel and text. Introduction notes that the figures on breach notices in the text are based on the third edition’s 71 notices. Proposal ledger unchanged |
 
 ---
 
