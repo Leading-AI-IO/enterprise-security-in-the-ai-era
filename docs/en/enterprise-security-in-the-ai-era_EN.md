@@ -3714,9 +3714,10 @@ When the edition changes, they show readers where to look to check whether this 
 ## Indicators to count again in the next edition
 
 (Added on 3 November 2026)<br/>
-Because the companion book was updated to its fourth edition (3 November 2026, 300 rows), the values of indicators 8 and 9, which can be counted mechanically from its registry, have been added in the rightmost column.<br/>
+Because the companion book was updated to its fourth edition (3 November 2026, 300 rows), the values of indicators 8 and 9, which can be counted mechanically from its registry, and of indicators 10 to 12, for which the 229 rows added in the fourth edition were classified by the same rules as Chapter 9, have been added in the rightmost column.<br/>
 Indicator 9 is, as in edition 1, the number of rows whose `経路` (route) column in the companion book's `data/registry.csv` is “不正アクセス（経路未公表）” (unauthorised access, route not disclosed).<br/>
-Indicators 10 to 12 and 14 are not counted in this column, because the 229 rows added in the fourth edition have not yet been classified.<br/>
+Indicators 10 to 12 are the edition-1 classification of the 71 rows plus the classification of the 229 added rows (Appendix B, “Chapter 9's classification — rows added in the registry's fourth edition (3 November 2026)”).<br/>
+Indicator 14 is not counted in this column, because the 229 added rows have not yet been checked for who decided to stop.<br/>
 This book's proposal ledger `data/proposals.csv` is unchanged from edition 1, so indicators 1 to 7, 15 and 16 have not changed.<br/>
 A “—” in the rightmost column means the indicator was not recounted in that column.
 
@@ -3731,9 +3732,9 @@ A “—” in the rightmost column means the indicator was not recounted in tha
 | 7 | Number of primary sources from individual experts in Japan | 1 | Chapter 6 | `type` column of the same file (G) and country of issue | — |
 | 8 | Total number of Japanese breach notices | 71 | Companion book | Companion book's `data/registry.csv` | 300 |
 | 9 | Of these, public notices that do not state the intrusion route | 35 | Chapters 6 and 9 | `経路` (route) column of the same file | 74 |
-| 10 | Of these, public notices that disclosed at the ceiling (A) | 18 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | — |
-| 11 | Of these, public notices that narrowed by records (B) | 24 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | — |
-| 12 | Of these, public notices that could not state a count (C) | 14 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | — |
+| 10 | Of these, public notices that disclosed at the ceiling (A) | 18 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | 50 |
+| 11 | Of these, public notices that narrowed by records (B) | 24 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | 72 |
+| 12 | Of these, public notices that could not state a count (C) | 14 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | 94 |
 | 13 | Public notices that state, in the first notice, whether a count is the “ceiling” or “confirmed” | Not counted in edition 1 | Chapter 9 | To be counted in the next edition | — |
 | 14 | Public notices that state who decided to stop | 0 | Chapter 10 | Checked in the text | — |
 | 15 | Number of Personal Information Protection Commission (PPC) guidance cases on “supervision of vendors” | 12 (April–June 2026, private-sector businesses) | Chapter 11 | PPC report on the exercise of its monitoring and supervisory powers | — |
@@ -4002,6 +4003,33 @@ Borderline rows are described in Chapter 9, “Objections and limits”.
 
 Classification rules: classify by the form of the first notice (Helpfeel 005 is A because its first notice covered all records).<br/>
 If any of “maximum”, “all records held at the time”, “all registered users” or “handled by treating them as leaked” appears, it is A. Notices that separated what was confirmed from what was at risk of having leaked, that fixed the count, or that showed how many of the total included what, are B. Notices with no count, still under investigation, or not disclosed, are C. Notices that give only “possible” and a count, where it cannot be read whether the count is the ceiling, are D.
+
+
+(Added on 3 November 2026)
+
+## Chapter 9's classification — rows added in the registry's fourth edition (3 November 2026)
+
+The 229 rows (072–300) added in the fourth edition of the companion book's registry (3 November 2026) are classified by the same rules as the table above, based on what the public notices say about scale, status and supplementary details.<br/>
+The table of the 71 rows above has not been rewritten.<br/>
+The first notice is taken to be the first report that mentions a leak (including a possible leak) of personal information. Rows whose first notice was determined this way: 073, 132, 138, 146.
+
+| Form | Notices | Registry IDs |
+|---|---|---|
+| A Disclosed at the ceiling | 32 | 075, 079, 080, 090, 091, 093, 096, 111, 117, 120, 137, 149, 152, 153, 163, 165, 169, 195, 196, 199, 200, 211, 212, 217, 218, 227, 246, 254, 255, 275, 290, 294 |
+| B Narrowed by records | 48 | 072, 078, 085, 086, 088, 094, 105, 121, 131, 133, 134, 136, 139, 146, 150, 175, 176, 178, 180, 181, 188, 191, 192, 193, 201, 202, 207, 209, 213, 222, 225, 232, 240, 241, 245, 256, 258, 271, 274, 277, 281, 283, 289, 292, 295, 296, 298, 299 |
+| C Could not state a count | 80 | 076, 081, 095, 100, 109, 112, 113, 115, 118, 119, 122, 123, 124, 125, 126, 127, 128, 129, 130, 132, 135, 138, 140, 141, 143, 144, 151, 154, 156, 158, 161, 162, 164, 166, 173, 174, 177, 179, 182, 183, 184, 186, 187, 189, 190, 194, 197, 203, 204, 215, 220, 223, 224, 228, 229, 231, 233, 235, 239, 242, 243, 244, 248, 250, 251, 252, 253, 262, 264, 268, 270, 273, 276, 278, 282, 284, 288, 291, 297, 300 |
+| D “Possible” plus a count | 69 | 073, 074, 077, 082, 083, 084, 087, 089, 092, 097, 098, 099, 101, 102, 103, 104, 106, 107, 108, 110, 114, 116, 142, 145, 147, 148, 155, 157, 159, 160, 167, 168, 170, 171, 172, 185, 198, 205, 206, 208, 210, 214, 216, 219, 221, 226, 230, 234, 236, 237, 238, 247, 249, 257, 259, 260, 261, 263, 265, 266, 267, 269, 272, 279, 280, 285, 286, 287, 293 |
+
+Together with the 71 rows of edition 1, the classification of the 300 rows is as follows.
+
+| Form | 71 rows (30 October 2026) | 229 added rows (3 November 2026) | Total, 300 rows |
+|---|---|---|---|
+| A Disclosed at the ceiling | 18 | 32 | 50 |
+| B Narrowed by records | 24 | 48 | 72 |
+| C Could not state a count | 14 | 80 | 94 |
+| D “Possible” plus a count | 15 | 69 | 84 |
+
+The 36 rows whose classification could differ depending on how the rules are applied are 072, 073, 078, 085, 086, 091, 094, 095, 105, 118, 127, 132, 138, 146, 173, 184, 193, 196, 199, 200, 206, 207, 212, 213, 214, 217, 218, 227, 257, 262, 264, 266, 271, 283, 294, 300 (whether a figure can be read as all registered users, whether a count is approximate, which report counts as the first notice, whether “maximum” applies to only part of the count, and so on).
 
 <br/>
 
