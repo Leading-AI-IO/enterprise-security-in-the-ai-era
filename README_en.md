@@ -5,7 +5,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Language](https://img.shields.io/badge/Language-Japanese%20%7C%20English-blue)](docs/)
 [![Proposals](https://img.shields.io/badge/Proposals-211-informational)](data/proposals.csv)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--10--30-brightgreen)](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--15-brightgreen)](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era)
 
 <p align="left">
   <img src="./assets/ogp_design.png" width="80%">
@@ -90,8 +90,11 @@ The book does not say which measures prevent attacks; there is no source that me
 
 | File | Role | Contents |
 | --- | --- | --- |
-| [proposals.csv](./data/proposals.csv) | **Canonical** | The proposal ledger. 263 rows, 18 columns (UTF-8 with BOM). Column definitions in Appendix A-2, counting rules in Appendix A-4 |
+| [proposals.csv](./data/proposals.csv) | **Canonical** | (Corrected November 15, 2026)<br>The proposal ledger. 263 rows, 28 columns (UTF-8 with BOM). The first 18 columns are canonical; the last 10 (`*_en`) are English translations for English-language readers. Column definitions in Appendix A-2, counting rules in Appendix A-4 |
 | [count_proposals.py](./scripts/count_proposals.py) | Counting script | Recounts, from the canonical file, the indicators in the conclusion and the figures used in Chapters 4 and 6. Changes no file |
+
+(Added November 15, 2026)<br>
+**About the English columns.** The ten columns on the right of `data/proposals.csv` (`proposal_en`, `issuer_en`, `medium_en`, `target_en`, `industry_en`, `k_en`, `route_en`, `status_en`, `evidence_en`, `limits_en`) are English translations of the columns of the same name, added so that the ledger can be read without Japanese. The Japanese columns are canonical, and counts are made from them: `scripts/count_proposals.py` reads the Japanese columns and is unchanged. English quotations from the sources are kept verbatim. Where a source is in Japanese, the quotation in `proposal_en` is a translation and is marked "(translated from Japanese)"; titles of Japanese documents in `issuer_en` are marked "(title translated)"; for French and Korean sources the original quotation is kept with a translation. The translations were made by the author with AI assistance, and numbers and URLs were checked by machine against the Japanese columns; no independent translator has reviewed them. If a translation differs from the Japanese columns, the Japanese columns prevail.
 
 **Updates to this book are confined to three places**: the proposal ledger `data/proposals.csv`, Appendix B (the verification record) and the indicator table in the conclusion. Figures in the text refer to the "as of edition N" panel at the head of each chapter and to those three places; when the prose itself is changed, "(added/corrected on D Month YYYY)" is placed immediately before the change. Readers may open `data/proposals.csv` alone without reading the text.
 
@@ -114,6 +117,7 @@ The book does not say which measures prevent attacks; there is no source that me
 | 2026-10-30 | v1.0 | First edition. Proposal ledger of 263 rows (211 counted, 39 in T3). Introduction, Chapters 1–12, conclusion, Appendices A and B. Japanese and English editions |
 | 2026-10-30 | v1.0 (corrected) | Same-day corrections after publication. (1) The “effect measured” wording aligned with Chapter 6's breakdown (14 recorded, 0 meeting the book's criterion; Chapter 12, conclusion, two figures, Appendix A-4). (2) Opening records added to 121 T1/T2 rows; who opened them (author 90 / AI research assistant 121) stated in Appendices A-3 and B-3; six empty URLs filled. (3) “The numbers this chapter stands on” panels added to Chapters 7–12; table of contents added at the head of the text. No rows deleted, no tiers changed |
 | 2026-11-03 | v1.0 (added) | Reflects the fourth edition of the companion book *The Japan Breach Registry 2026* (300 rows). A column added to the indicator table in the conclusion (indicator 8: 300; indicator 9: 74; indicators 10–12: 50, 72, 94; indicator 14 not counted). Chapter 9 classification of the 229 added rows appended to Appendix B. Vendor rows 179 of 300 added to Chapter 11’s “numbers this chapter stands on” panel and text. Introduction notes that the figures on breach notices in the text are based on the third edition’s 71 notices. Proposal ledger unchanged |
+| 2026-11-15 | v1.1 | Zenodo archive version. The text is the first edition with the 3 November addition. The edition is still called the first edition; v1.1 is the release number of the archive. (Added November 15, 2026)<br>For English-language readers, ten English-translation columns (`*_en`) were added to the right of the proposal ledger `data/proposals.csv` (18 columns to 28). The existing 18 columns, the rows, the text and the output of the counting script are unchanged. (Corrected November 15, 2026)<br>The “Last Updated” badge still read 2026-10-30; it now reads 2026-11-15. Added .zenodo.json and CITATION.cff |
 
 ---
 

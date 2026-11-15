@@ -6,7 +6,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Language](https://img.shields.io/badge/Language-Japanese%20%7C%20English-blue)](docs/)
 [![Proposals](https://img.shields.io/badge/Proposals-211-informational)](data/proposals.csv)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--10--30-brightgreen)](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--15-brightgreen)](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era)
 
 <p align="left">
   <img src="./assets/ogp_design.png" width="80%">
@@ -106,8 +106,11 @@
 
 | ファイル | 位置づけ | 内容 |
 | --- | --- | --- |
-| [proposals.csv](./data/proposals.csv) | **正本** | 提言台帳。263行・18列（UTF-8 BOM付き）。列の定義は付録A-2、数え方は付録A-4 |
+| [proposals.csv](./data/proposals.csv) | **正本** | （2026年11月15日訂正）<br>提言台帳。263行・28列（UTF-8 BOM付き）。左の18列が正本、右の10列（`*_en`）は英語読者向けの英訳。列の定義は付録A-2、数え方は付録A-4 |
 | [count_proposals.py](./scripts/count_proposals.py) | 集計スクリプト | 正本から、終章の指標表と第4章・第6章の件数を数え直す。ファイルは変更しない |
+
+（2026年11月15日追記）<br>
+**英語の列について。** `data/proposals.csv` の右の10列（`proposal_en`、`issuer_en`、`medium_en`、`target_en`、`industry_en`、`k_en`、`route_en`、`status_en`、`evidence_en`、`limits_en`）は、同名の列の英訳で、日本語を読めない読者が台帳を読めるように足した。正本は日本語の列で、数え直しは日本語の列から行う（`scripts/count_proposals.py` は日本語の列を読み、変更していない）。出典が英語の引用は原文のまま、出典が日本語の引用は `proposal_en` で訳文とし「(translated from Japanese)」を付けた。`issuer_en` の日本語資料の題名の訳には「(title translated)」を付けた。フランス語・韓国語の出典は、原文に訳を添えた。訳は著者がAIの補助を受けて作り、数字とURLは日本語の列と機械で照合したが、第三者の翻訳者による確認は受けていない。訳が日本語の列と食い違うときは、日本語の列を正とする。
 
 **本書の更新は3か所に限る。** 提言台帳 `data/proposals.csv`、付録B（検証記録）、終章の指標表。本文の数字は各章冒頭の「第N版時点」欄とこの3か所から参照し、本文の文章を変えるときは変更箇所の直前に「（YYYY年M月D日追記／訂正）」を置く。読者は本文を読まずに `data/proposals.csv` だけを開いてもよい。
 
@@ -130,6 +133,7 @@
 | 2026-10-30 | v1.0 | 第1版。提言台帳263行（集計対象211件、T3 39行）。序章・第1〜12章・終章・付録A/B。日本語版・英語版 |
 | 2026-10-30 | v1.0（訂正） | 公開後の同日訂正。①「効果測定あり」の記述を第6章の内訳に揃えた（記録上14件、本書の基準では0件。第12章・終章・図2点・付録A-4）。②T1・T2の121行に開封の記録を追記し、開封の主体（著者90件／AI調査の補助121件）を付録A-3・B-3に明記。空だったURL6行を補記。③第7〜12章の冒頭に「この章が拠って立つ数字」欄を追加。本文冒頭に目次を追加。行の削除・階層の変更なし |
 | 2026-11-03 | v1.0（追記） | 姉妹書『The Japan Breach Registry 2026』第4版（300行）の反映。終章の指標表に列を追加（指標8：300通、指標9：74通。指標10〜12：50通・72通・94通。指標14は未集計）。付録Bに、追加した229行の第9章の分類を追記。第11章の「この章が拠って立つ数字」と本文に、委託先179行／300行を追記。序章に、本文の公表文の数字が第3版の71通に基づくことを追記。提言台帳の変更なし |
+| 2026-11-15 | v1.1 | Zenodoアーカイブ版。本文は第1版に11月3日の追記を加えたもの。「第1版」という版の呼び方は変えず、v1.1はアーカイブ用のリリース番号。（2026年11月15日追記）<br>英語読者向けに、提言台帳 `data/proposals.csv` の右に英訳の10列（`*_en`）を追加（18列から28列）。既存の18列、行、本文、集計スクリプトの出力は変更なし。（2026年11月15日訂正）<br>「Last Updated」バッジが2026-10-30のままだったため、2026-11-15に訂正。.zenodo.jsonとCITATION.cffを追加 |
 
 ---
 
