@@ -69,7 +69,8 @@
 - [English text](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era/blob/main/docs/en/enterprise-security-in-the-ai-era_EN.md)
 - [proposals.csv (canonical ledger; since v1.1 the last 10 columns, *_en, are English translations)](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era/blob/main/data/proposals.csv)
 - [count_proposals.py (recount script)](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era/blob/main/scripts/count_proposals.py)
-- [Update runbook](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era/blob/main/docs/UPDATE_RUNBOOK.md)
+- [Update runbook (Japanese, canonical)](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era/blob/main/docs/UPDATE_RUNBOOK.md)
+- [Update runbook (English translation, added in v1.1)](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era/blob/main/docs/UPDATE_RUNBOOK_en.md)
 - Companion: [The Japan Breach Registry 2026](https://github.com/Leading-AI-IO/the-japan-breach-registry-2026)
 
 ## Author
