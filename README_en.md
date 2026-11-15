@@ -4,6 +4,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Language](https://img.shields.io/badge/Language-Japanese%20%7C%20English-blue)](docs/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24237814.svg)](https://doi.org/10.5281/zenodo.24237814)
 [![Proposals](https://img.shields.io/badge/Proposals-211-informational)](data/proposals.csv)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--15-brightgreen)](https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era)
 
