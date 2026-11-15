@@ -69,7 +69,7 @@ Get-ChildItem -Recurse -File -Include *.asc,*.rev,*.gpg,*.key,*.pgp
 | `urls` | 開いた一次資料のURL |
 
 （2026年11月15日追記）<br>
-**英語の列（v1.1から）。** 行を足すときは、右の10列（`proposal_en`、`issuer_en`、`medium_en`、`target_en`、`industry_en`、`k_en`、`route_en`、`status_en`、`evidence_en`、`limits_en`）に、同名の列の英訳を入れる。正本は日本語の列で、数え直しは日本語の列から行う。英語の出典の引用は原文のまま、日本語の出典の引用は訳文にして「(translated from Japanese)」を付ける。`issuer_en` の日本語資料の題名の訳には「(title translated)」を付ける。URLと数字は日本語の列と同じにする。
+**英訳の台帳（v1.1から）。** 行を足すときは、`data/proposals_en.csv` にも同じ位置に同じ `new_id` の行を足し、`proposal`、`issuer`、`medium`、`target`、`industry`、`k`、`route`、`status`、`evidence`、`limits` の10列に英訳を入れる。それ以外の列は `proposals.csv` と同じ値を写す。正本は `proposals.csv` で、数え直しは `proposals.csv` から行う。英語の出典の引用は原文のまま、日本語の出典の引用は訳文にして「(translated from Japanese)」を付ける。`issuer` 列の日本語資料の題名の訳には「(title translated)」を付ける。URLと数字は `proposals.csv` と同じにする。行の追記・階層の変更・訂正を `proposals.csv` に行ったときは、同じ変更を `proposals_en.csv` にも行う。
 
 ### 1-3. 数え直す
 
@@ -92,7 +92,7 @@ python scripts/count_proposals.py
 ### 1-5. コミットして push
 
 ```powershell
-git add data/proposals.csv docs/ README.md README_en.md llms.txt
+git add data/proposals.csv data/proposals_en.csv docs/ README.md README_en.md llms.txt
 git commit -S -m "Add proposals <new_id>..<new_id>: <発行元>"
 git log --show-signature -1
 git push origin main

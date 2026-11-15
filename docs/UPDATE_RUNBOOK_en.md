@@ -72,7 +72,7 @@ Column definitions are in Appendix A-2. From the primary source, fill in the fol
 | `urls` | The URLs of the primary sources that were opened |
 
 (Added November 15, 2026)<br>
-**English columns (from v1.1).** When adding a row, enter in the ten columns on the right (`proposal_en`, `issuer_en`, `medium_en`, `target_en`, `industry_en`, `k_en`, `route_en`, `status_en`, `evidence_en`, `limits_en`) the English translation of the column of the same name. The Japanese columns are canonical, and recounts are made from the Japanese columns. English quotations from sources are kept as in the original; quotations from Japanese sources are translated and marked "(translated from Japanese)". Translations of the titles of Japanese documents in `issuer_en` are marked "(title translated)". URLs and numbers are the same as in the Japanese columns.
+**English ledger (from v1.1).** When adding a row, add a row with the same `new_id` at the same position in `data/proposals_en.csv` too, and enter the English translation in the ten columns `proposal`, `issuer`, `medium`, `target`, `industry`, `k`, `route`, `status`, `evidence` and `limits`. Copy the same values as in `proposals.csv` for the other columns. `proposals.csv` is canonical, and recounts are made from `proposals.csv`. English quotations from sources are kept as in the original; quotations from Japanese sources are translated and marked "(translated from Japanese)". Translations of the titles of Japanese documents in the `issuer` column are marked "(title translated)". URLs and numbers are the same as in `proposals.csv`. When you add a row to, change the tier of, or correct a row in `proposals.csv`, make the same change in `proposals_en.csv`.
 
 ### 1-3. Recount
 
@@ -95,7 +95,7 @@ Where the prose mentions a figure, do not rewrite it; put "（YYYY年M月D日追
 ### 1-5. Commit and push
 
 ```powershell
-git add data/proposals.csv docs/ README.md README_en.md llms.txt
+git add data/proposals.csv data/proposals_en.csv docs/ README.md README_en.md llms.txt
 git commit -S -m "Add proposals <new_id>..<new_id>: <issuer>"
 git log --show-signature -1
 git push origin main
