@@ -68,6 +68,9 @@ Get-ChildItem -Recurse -File -Include *.asc,*.rev,*.gpg,*.key,*.pgp
 | `route` | 日本の台帳の侵入経路との対応。複数あれば「・」で並べる。侵入経路を書かない公表文への処方は「経路非開示への処方」 |
 | `urls` | 開いた一次資料のURL |
 
+（2026年11月15日追記）<br>
+**英語の列（v1.1から）。** 行を足すときは、右の10列（`proposal_en`、`issuer_en`、`medium_en`、`target_en`、`industry_en`、`k_en`、`route_en`、`status_en`、`evidence_en`、`limits_en`）に、同名の列の英訳を入れる。正本は日本語の列で、数え直しは日本語の列から行う。英語の出典の引用は原文のまま、日本語の出典の引用は訳文にして「(translated from Japanese)」を付ける。`issuer_en` の日本語資料の題名の訳には「(title translated)」を付ける。URLと数字は日本語の列と同じにする。
+
 ### 1-3. 数え直す
 
 ```powershell
