@@ -7,7 +7,7 @@ This file is public. The proposal ledger is written by one person, the author (s
 
 **Target repository**: `https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era`
 **Signing key**: Every commit is signed with the same author key as in the runbooks of the companion books *The Japan Breach Registry 2026* and *The AI Forecast Registry*. The public key is registered on the author's GitHub account and can be matched against the `Verified` badge on each commit. The private key is not included here. **The commits of the first edition (2026-10-30) were uploaded through the GitHub web interface and are signed by GitHub's own key.** Signing with the author's key applies from the next commit.
-**Last updated**: 2026-11-18 (v1.1; 281 ledger rows; 224 counted; 44 T3 rows. 18 rows added to the proposal ledger, a column added to the indicator table in the conclusion, and additions to the text of Chapters 1, 6, 7 and 10. Previous update 2026-11-03: indicators 8 to 12 of the companion book's fourth edition added to the indicator table in the conclusion, and the classification of the 229 added rows of Chapter 9 added to Appendix B)
+**Last updated**: 2026-11-18 (v1.2; 281 ledger rows; 224 counted; 44 T3 rows. 18 rows added to the proposal ledger, a column added to the indicator table in the conclusion, and additions to the text of Chapters 1, 6, 7 and 10. Previous update 2026-11-03: indicators 8 to 12 of the companion book's fourth edition added to the indicator table in the conclusion, and the classification of the 229 added rows of Chapter 9 added to Appendix B)
 
 ---
 

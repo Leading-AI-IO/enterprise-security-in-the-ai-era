@@ -6,9 +6,9 @@ authors:
     given-names: Satoshi
     affiliation: "Leading.AI LLC"
     orcid: "https://orcid.org/0009-0002-1976-656X"
-version: "1.1"
+version: "1.2"
 doi: 10.5281/zenodo.24237814
-date-released: "2026-11-15"
+date-released: "2026-11-18"
 license: CC-BY-4.0
 repository-code: "https://github.com/Leading-AI-IO/enterprise-security-in-the-ai-era"
 keywords:
