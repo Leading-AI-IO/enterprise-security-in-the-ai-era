@@ -249,6 +249,7 @@ When the numbers are updated, this table is replaced, and the text is corrected,
 | The fastest 25% reached exfiltration in 72 minutes (285 minutes the previous year) | Unit 42 Global Incident Response Report 2026 | October 2024 – September 2025 | 2027 edition |
 | Full remediation of critical vulnerabilities 26% (previous year 38%); median time to full resolution 43 days (previous year 32 days) | Verizon 2026 Data Breach Investigations Report | November 2024 – October 2025 | 2027 edition |
 | Average time to exploitation estimated at 7 days before patch release | Mandiant M-Trends 2026 | 2025 | 2027 edition |
+| (Added on 18 November 2026) Of 6,157 disclosed vulnerabilities, 516 confirmed fixed (as of 2 October); share fixed about 6% → 8% between May and October | Cloud Security Alliance, “The Disclosure Bottleneck” (citing Anthropic's public dashboard) | May–October 2026 | The organisation's next report |
 
 “Next update” in the table refers to the issuer's next annual report.
 
@@ -388,6 +389,16 @@ In Anthropic's Project Glasswing, which uses AI to look for vulnerabilities for 
 Meanwhile, of the 530 high- or critical-severity vulnerabilities Anthropic reported, 75 have been fixed (the company's update report, published on 22 May 2026 and updated on 28 September).<br/>
 The Cloud Security Alliance tallied that, as of 22 May 2026, of 1,596 vulnerabilities disclosed to open-source maintainers, 97 had been confirmed as fixed, and described this gap as “the discovery-to-remediation gap as a primary — and previously underappreciated — systemic security risk”.
 
+(Added on 18 November 2026)<br/>
+This gap has not narrowed since.<br/>
+In a report of 6 November 2026, the Cloud Security Alliance wrote, based on Anthropic's public dashboard, that of 6,157 disclosed vulnerabilities, 516 had been confirmed as fixed (as of 2 October).<br/>
+Between May and October, disclosures roughly quadrupled, while the share fixed rose only from about 6% to 8%.<br/>
+On 11 November 2026, Microsoft published the results of examining the Linux kernel with AI.<br/>
+Of 26,502 raw findings, 59 were reported publicly upstream and 38 fixes were merged into mainline; the median from the first public patch to the mainline release was 41 days.<br/>
+The company wrote: “discovery is only one part of the work.”<br/>
+Anthropic itself wrote on 8 October 2026 that in Project Glasswing months often passed between discovery and fix, and that it had not yet achieved “a sufficient reduction in cyber risk”.<br/>
+The Cloud Security Alliance, however, itself lists as a limitation that its key data are self-reported by the discovering side and that independent verification is limited.
+
 AI has made the finding side faster.<br/>
 The fixing side still moves at human speed.<br/>
 This gap has arisen inside the defending side too.
@@ -430,6 +441,9 @@ What comes into view there is the fact that the issuers of the proposals themsel
 6. Cloud Security Alliance, “The Collapsing Exploit Window” (2026-04-25) — Main text https://labs.cloudsecurityalliance.org/research/csa-whitepaper-collapsing-exploit-window-ai-speed-vulnerabil/
 7. Cloud Security Alliance, “Project Glasswing: AI Discovery Outpaces Open-Source Patching Capacity” (2026-06-07) — Main text https://cloudsecurityalliance.org/artifacts/project-glasswing-ai-discovery-outpaces-open-source-patching-capacity
 8. Anthropic, “Project Glasswing: An initial update” (2026-05-22 (updated 2026-09-28)) — Main text https://www.anthropic.com/news/glasswing-initial-update
+9. (Added on 18 November 2026) Cloud Security Alliance, “The Disclosure Bottleneck: When AI Discovery Outpaces Patch Consumption” (2026-11-06) — Main text https://labs.cloudsecurityalliance.org/research/csa-whitepaper-ai-vulnerability-disclosure-bottleneck-202611/
+10. (Added on 18 November 2026) Microsoft Security Blog, “Lessons from 59 Linux Kernel Bug Reports” (2026-11-11) — Main text https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/
+11. (Added on 18 November 2026) Anthropic, “Introducing the Anthropic Cyber Mission” (2026-10-08) — Main text https://www.anthropic.com/news/anthropic-cyber-mission
 
 <br/>
 
@@ -1580,6 +1594,7 @@ Of the documents named in this chapter, those that first appear in the main text
 | Number | Issuer and source | Period covered | Next update |
 |---|---|---|---|
 | K5 “Data minimisation and structure”: 13 proposals (9 as primary classification); of the 13, 12 from governments and public bodies and 1 from an insurer | This book’s proposal ledger `data/proposals.csv` (211 proposals in T1 and T2) | As of 30 October 2026 | Next edition (indicators 3 and 4 in the conclusion) |
+| (Added on 18 November 2026) K5: 15 proposals (10 as primary classification); of the 15, 14 from governments and public bodies and 1 from an insurer. The two added are Japan's “Emergency Cybersecurity Countermeasures Package” (A-108, A-109) | This book’s proposal ledger `data/proposals.csv` (224 proposals in T1 and T2) | As of 18 November 2026 | Next edition (indicators 3 and 4 in the conclusion) |
 | OAIC announcement: 667 notifications in the first half of 2026; breaches affecting over one million people rose from 4 to 11 | Office of the Australian Information Commissioner, announcement of 26 October 2026 | First half of 2026 | OAIC’s next half-year statistics |
 | Basis of the Korean PIPC proposal: 447 breach reports in 2025, 432 in the first half of 2026 | Korea’s Personal Information Protection Commission (PIPC) proposal | 2025 and first half of 2026 | PIPC’s next statistics |
 | Three rows where what was held set the size of the harm: Helpfeel (Gyazo) about 23.62 million records, Times Mobility 6,628,007 records, Daiki Suisan 174,933 persons | Each notice in the companion volume The Japan Breach Registry 2026, third edition | As of 26 October 2026 | Companion volume’s next edition |
@@ -1801,6 +1816,17 @@ Here again is the count from Chapter 6. Of the 211 proposals at T1 and T2, K5 �
 Of the 13, 12 are from government bodies (A) and 1 from an insurer (E).<br/>
 There is not one from standards bodies, AI companies, security companies, academia, individuals or regulators.
 
+(Added on 18 November 2026)<br/>
+When 18 rows were added to the ledger on 18 November 2026, K5 rose to 15 including secondary categories and 10 as a primary category.<br/>
+It remains the fewest of the nine categories.<br/>
+Of the 15, 14 are from government bodies and 1 from an insurer; the other six issuer types still have none.<br/>
+The two added are the main text and the annex of the “Emergency Cybersecurity Countermeasures Package” decided by Japan's Ministerial Meeting on Cybersecurity on 6 November 2026 (A-108, A-109).<br/>
+The main text wrote that “a response that limits the scale of damage, such as not holding personal information beyond what is necessary, is also needed”, and went on: “so that damage can be kept to a minimum even in the unlikely event of an intrusion, narrow the information held to the necessary scope” (translated from Japanese).<br/>
+The annex lists, as one of its measures, the Personal Information Protection Commission's alert of 7 October (confirming the need for the personal data held and deleting data no longer needed).<br/>
+By this book's count, “hold less” is still the thinnest.<br/>
+In Japan, however, it has become the wording of the basic policy of a national emergency package.<br/>
+That the decision came from a government body does not contradict the view set out below, that “hold less” is nobody's product.
+
 In Chapter 6, this book did not assert the reason for this thinness.<br/>
 Here it is written as the author's claim.
 
@@ -1964,6 +1990,8 @@ The problem is that almost all of those 37 are proposals for products and servic
 6. Korea's Personal Information Protection Commission, “Recommendation on preventing mass leaks via APIs (`data/proposals.csv` A-105)” (2026-07-09) — pipc.go.kr
 7. Financial Services Agency, “Strengthening cybersecurity measures in light of the current situation, and responses in various transaction applications” (2026-10-09) https://www.fsa.go.jp/news/r8/sonota/20261009/20261009.html
 8. The author, “*The Japan Breach Registry 2026*, edition 3 (rows 005, 007, 020)” (2026-10-26) https://github.com/Leading-AI-IO/the-japan-breach-registry-2026
+9. (Added on 18 November 2026) Ministerial Meeting on Cybersecurity, “Emergency Cybersecurity Countermeasures Package” (title translated) (2026-11-06) — Main text (checked in excerpts shown in search results; full text not opened) https://www.cas.go.jp/jp/seisaku/cybersecurity_kakuryokaigi/pdf/countermeasure.pdf
+10. (Added on 18 November 2026) Same, “Emergency Cybersecurity Countermeasures Package: List of Measures” (annex, title translated) (2026-11-06) — PDF posted by the Ministry of Health, Labour and Welfare for dissemination (checked in excerpts) https://www.mhlw.go.jp/content/001767069.pdf
 
 **Update to the proposal ledger.**<br/>
 The FSA's request (`data/proposals.csv` A-063) was T3, via press reports, when edition 1 was prepared.<br/>
@@ -2763,6 +2791,16 @@ Within this book's collection, this is the only proposal that asks management to
 This judgement is based on the author's reading of the ledger's 263 rows (211 of them at T1 or T2).<br/>
 If another is found, this will be updated.
 
+(Added on 18 November 2026)<br/>
+When 18 rows were added to the ledger, one close statement was found.<br/>
+The “Emergency Cybersecurity Countermeasures Package” of 6 November 2026 (decided by the Ministerial Meeting on Cybersecurity) wrote, as a request from the Ministry of Internal Affairs and Communications to local governments: “(3) We request that they carry out AI-based vulnerability assessments and also consider temporarily suspending services until countermeasures are complete” (translated from Japanese).<br/>
+It is a case of a Japanese national decision writing that services should be stopped when a vulnerability is found, that is, before a breach.<br/>
+However, the request does not say who makes the decision to stop.<br/>
+Nor does it set criteria for stopping.<br/>
+Because it does not reach this book's definition (management holding criteria for stopping in advance), this book's count stays at one (indicator 6 in the conclusion).<br/>
+The text of this decision has been checked only in excerpts shown in search results (Appendix A-7, item 9).<br/>
+If opening the full text changes the judgement, this will be corrected by an addition.
+
 ---
 
 ```mermaid
@@ -3010,6 +3048,7 @@ The next chapter deals with that.
 11. LIXIL, “On the temporary suspension of our web systems and emergency maintenance” (2026-10-22) https://newsroom.lixil.com/ja/20261022_notice
 12. Monogatari Corporation, “On future measures to strengthen security and personal information protection in the “Yakiniku King” official app” (2026-10-20) https://www.monogatari.co.jp/news/261020_news/
 13. The author, “The Japan Breach Registry 2026, edition 3 (the times in the section “The Japanese registry — how long the companies that stopped took” are taken from each row's “intrusion date / confirmation date” and “notes” columns)” (2026-10-26) https://github.com/Leading-AI-IO/the-japan-breach-registry-2026
+14. (Added on 18 November 2026) Ministerial Meeting on Cybersecurity, “Emergency Cybersecurity Countermeasures Package” (title translated) (2026-11-06) — Main text (checked in excerpts shown in search results; full text not opened) https://www.cas.go.jp/jp/seisaku/cybersecurity_kakuryokaigi/pdf/countermeasure.pdf
 
 **How this was verified.**<br/>
 The four sentences of Request 8 were checked by opening the original PDF on 30 October 2026. The other eight rows of the table in the section “How it differs from the world's proposals — many say “stop”, none say “decide”” are based on primary sources the author opened when building the ledger (T1), or on sources confirmed from summaries (T2).<br/>
@@ -3721,24 +3760,33 @@ Indicator 14 is not counted in this column, because the 229 added rows have not 
 This book's proposal ledger `data/proposals.csv` is unchanged from edition 1, so indicators 1 to 7, 15 and 16 have not changed.<br/>
 A “—” in the rightmost column means the indicator was not recounted in that column.
 
-| # | Indicator | Edition 1 (30 October 2026) | Chapter | How to count | Companion book edition 4 (checked 3 November 2026) |
-|---|---|---|---|---|---|
-| 1 | Number of T1 and T2 proposals in the proposal ledger | 211 | Chapter 4 | `tier` column of `data/proposals.csv` | — |
-| 2 | Number of proposals with effect measured | 14 | Chapter 6 | `status` column of the same file | — |
-| 3 | Number of data minimisation (K5) proposals (including secondary category) | 13 (9 as primary category) | Chapters 6 and 7 | `k` column of the same file | — |
-| 4 | Number of issuer types that wrote K5 | 2 types (A government and public bodies, E insurers) | Chapter 6 | `type` column of the same file | — |
-| 5 | Number of proposals that set the log retention period in days | 1 (India's Indian Computer Emergency Response Team (CERT-In), 180 days) | Chapter 8 | Checked in the text | — |
-| 6 | Number of proposals that ask management to hold criteria for stopping in advance | 1 (Financial Services Agency (FSA) and Bank of Japan, Request 8) | Chapter 10 | Checked in the text | — |
-| 7 | Number of primary sources from individual experts in Japan | 1 | Chapter 6 | `type` column of the same file (G) and country of issue | — |
-| 8 | Total number of Japanese breach notices | 71 | Companion book | Companion book's `data/registry.csv` | 300 |
-| 9 | Of these, public notices that do not state the intrusion route | 35 | Chapters 6 and 9 | `経路` (route) column of the same file | 74 |
-| 10 | Of these, public notices that disclosed at the ceiling (A) | 18 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | 50 |
-| 11 | Of these, public notices that narrowed by records (B) | 24 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | 72 |
-| 12 | Of these, public notices that could not state a count (C) | 14 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | 94 |
-| 13 | Public notices that state, in the first notice, whether a count is the “ceiling” or “confirmed” | Not counted in edition 1 | Chapter 9 | To be counted in the next edition | — |
-| 14 | Public notices that state who decided to stop | 0 | Chapter 10 | Checked in the text | — |
-| 15 | Number of Personal Information Protection Commission (PPC) guidance cases on “supervision of vendors” | 12 (April–June 2026, private-sector businesses) | Chapter 11 | PPC report on the exercise of its monitoring and supervisory powers | — |
-| 16 | Number of figures in Appendix B with the state “Source unknown” or “Denied by the issuer” | Source unknown: 1; Denied by the issuer: 1 | Appendix B | Appendix B, “Figures we track (as of edition 1, 30 October 2026)” | — |
+(Added on 18 November 2026)<br/>
+Proposals published after 30 October 2026, and proposals missed in the collection for edition 1, were checked, and 18 rows were added to the proposal ledger (A-108 to A-117, B-021, C-026 to C-030, D-030, E-021).<br/>
+Of the 18 rows, 13 are T1 or T2, with the wording confirmed in the primary source, and 5 are T3, which could not be opened.<br/>
+The ledger now has 281 rows, 224 counted (T1 84, T2 140), and 44 in T3.<br/>
+The 13 rows were opened by the AI research assistant; the author has not yet opened them directly (Appendix A-7, item 9).<br/>
+Indicator 3 rose from 13 to 15. The two added are the main text (A-108) and the annex (A-109) of the Japanese government's “Emergency Cybersecurity Countermeasures Package” (decided by the ministerial meeting on 6 November 2026).<br/>
+Indicator 4 remains 2 types.<br/>
+Indicators 5 and 8 to 16 were not recounted in this column. The companion book's registry has grown to 844 rows (as of 16 November 2026); reflecting it in indicators 8 to 12 will be done in a separate addition.
+
+| # | Indicator | Edition 1 (30 October 2026) | Chapter | How to count | Companion book edition 4 (checked 3 November 2026) | Additions to the proposal ledger (18 November 2026) |
+|---|---|---|---|---|---|---|
+| 1 | Number of T1 and T2 proposals in the proposal ledger | 211 | Chapter 4 | `tier` column of `data/proposals.csv` | — | 224 |
+| 2 | Number of proposals with effect measured | 14 | Chapter 6 | `status` column of the same file | — | 14 (none among the 18 added rows) |
+| 3 | Number of data minimisation (K5) proposals (including secondary category) | 13 (9 as primary category) | Chapters 6 and 7 | `k` column of the same file | — | 15 (10 as primary category) |
+| 4 | Number of issuer types that wrote K5 | 2 types (A government and public bodies, E insurers) | Chapter 6 | `type` column of the same file | — | 2 types (A governments and public bodies, E insurers; unchanged) |
+| 5 | Number of proposals that set the log retention period in days | 1 (India's Indian Computer Emergency Response Team (CERT-In), 180 days) | Chapter 8 | Checked in the text | — | — |
+| 6 | Number of proposals that ask management to hold criteria for stopping in advance | 1 (Financial Services Agency (FSA) and Bank of Japan, Request 8) | Chapter 10 | Checked in the text | — | 1 (unchanged; the text behind A-108 has a close statement but does not reach this book's definition; see the addition to Chapter 10) |
+| 7 | Number of primary sources from individual experts in Japan | 1 | Chapter 6 | `type` column of the same file (G) and country of issue | — | 1 (no G rows among the additions) |
+| 8 | Total number of Japanese breach notices | 71 | Companion book | Companion book's `data/registry.csv` | 300 | — |
+| 9 | Of these, public notices that do not state the intrusion route | 35 | Chapters 6 and 9 | `経路` (route) column of the same file | 74 | — |
+| 10 | Of these, public notices that disclosed at the ceiling (A) | 18 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | 50 | — |
+| 11 | Of these, public notices that narrowed by records (B) | 24 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | 72 | — |
+| 12 | Of these, public notices that could not state a count (C) | 14 | Chapter 9 | Classification in Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” | 94 | — |
+| 13 | Public notices that state, in the first notice, whether a count is the “ceiling” or “confirmed” | Not counted in edition 1 | Chapter 9 | To be counted in the next edition | — | — |
+| 14 | Public notices that state who decided to stop | 0 | Chapter 10 | Checked in the text | — | — |
+| 15 | Number of Personal Information Protection Commission (PPC) guidance cases on “supervision of vendors” | 12 (April–June 2026, private-sector businesses) | Chapter 11 | PPC report on the exercise of its monitoring and supervisory powers | — | — |
+| 16 | Number of figures in Appendix B with the state “Source unknown” or “Denied by the issuer” | Source unknown: 1; Denied by the issuer: 1 | Appendix B | Appendix B, “Figures we track (as of edition 1, 30 October 2026)” | — | — |
 
 Whether the indicators rise or fall, they do not directly show whether this book's claim is right or wrong.<br/>
 For example, if indicator 3 rises, the “thinness” of the three proposals fades, but whether the proposals were right is a separate question.<br/>
@@ -3928,6 +3976,7 @@ This section records what the author had not fully verified as of edition 1.
 | 6 | Re-judging the borderline rows in Chapter 9's classification of public notices (A–D) | Chapter 9, Appendix B, “Chapter 9's classification — the scope of notification (the 71 rows of the registry, 30 October 2026)” |
 | 7 | Re-checking the 14 “effect measured” proposals against the ledger's `status` column (because of some rows, a mechanical count comes to 13). (Added 30 October 2026) Checked; the one-row difference is F-007 (see A-4) | Chapter 6 |
 | 8 | (Added 30 October 2026) The author's direct opening of the 121 rows opened by the AI research assistant, in particular the 5 rows whose wording was not found in the retrieved text and the 7 rows whose pages could not be opened (see A-3). Rows that cannot be confirmed go back to T3 | Part 2 |
+| 9 | (Added 18 November 2026) The author's direct opening of the 18 rows added on 18 November 2026. The 13 T1/T2 rows were opened by the AI research assistant. For three of them, A-108 to A-110, the Cabinet Secretariat PDFs could not be opened and the wording was confirmed in excerpts of the text shown in search results. The 5 T3 rows (C-030 OpenAI, A-114 ENISA, A-115 ASD, A-116 National Cybersecurity Office, A-117 Personal Information Protection Commission) have not been opened | Part 2, Chapters 7 and 10 |
 
 <br/>
 
